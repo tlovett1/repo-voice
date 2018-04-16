@@ -1,0 +1,105 @@
+{
+  "interactionModel":{
+    "languageModel":{
+      "invocationName": "github",
+      "types":[
+        {
+          "name": "REPO",
+          "values": [
+            {
+              "name": {
+                "value": "node"
+              }
+            },
+            {
+              "name": {
+                "value": "react"
+              }
+            },
+            {
+              "name": {
+                "value": "angular"
+              }
+            },
+            {
+              "name": {
+                "value": "webpack"
+              }
+            },
+            {
+              "name": {
+                "value": "vue"
+              }
+            }
+          ]
+        }
+      ],
+      "intents": [
+        {
+          "name":"RepoUpdates",
+          "slots":[
+            {
+              "name":"repo_name",
+              "type":"REPO"
+            }
+          ],
+          "samples":[
+            "update me on {repo_name}",
+            "what's the latest on {repo_name}",
+            "what's new with {repo_name}",
+            "tell me about {repo_name}"
+          ]
+        },
+        {
+          "name":"FavoriteUpdates",
+          "samples":[
+            "favorites",
+            "favorites updates",
+            "update me on my favorites",
+            "what are the updates on my favorites",
+            "favorite updates",
+            "updates on my favorites",
+            "updates"
+          ]
+        },
+        {
+          "name":"GetFavorites",
+          "samples":[
+            "what are my favorites",
+            "tell me my favorites",
+            "list favorites",
+            "list my favorites"
+          ]
+        },
+        {
+          "name":"AddFavorite",
+          "slots":[
+            {
+              "name":"repo_name",
+              "type":"REPO"
+            }
+          ],
+          "samples":[
+            "add favorite {repo_name}",
+            "set favorite {repo_name}",
+            "add favorites {repo_name}"
+          ]
+        },
+        {
+          "name":"RemoveFavorite",
+          "slots":[
+            {
+              "name":"repo_name",
+              "type":"REPO"
+            }
+          ],
+          "samples":[
+            "delete favorite {repo_name}",
+            "remove favorite {repo_name}",
+            "remove favorites {repo_name}"
+          ]
+        }
+      ]
+    }
+  }
+}

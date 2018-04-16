@@ -1,0 +1,27 @@
+{
+  "node": {
+    "owner": "nodejs",
+    "name": "node",
+    "niceName": "node"
+  },
+  "react": {
+    "owner": "facebook",
+    "name": "react",
+    "niceName": "react"
+  },
+  "angular": {
+    "owner": "angular",
+    "name": "angular",
+    "niceName": "angular"
+  },
+  "webpack": {
+    "owner": "webpack",
+    "name": "webpack",
+    "niceName": "webpack"
+  },
+  "vue": {
+    "owner": "vuejs",
+    "name": "vue",
+    "niceName": "vue"
+  }
+}

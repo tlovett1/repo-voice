@@ -1,0 +1,12 @@
+{
+  "name": "github-voice",
+  "version": "1.0.0",
+  "description": "Communicate with GitHub via Alexa",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.0",
+    "alexa-skill-test": "^1.2.0",
+    "lodash": "^4.17.5",
+    "request-promise": "^4.2.2"
+  }
+}
