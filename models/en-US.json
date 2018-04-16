@@ -1,34 +1,509 @@
 {
-  "interactionModel":{
-    "languageModel":{
+  "interactionModel": {
+    "languageModel": {
       "invocationName": "github",
-      "types":[
+      "types": [
         {
           "name": "REPO",
           "values": [
             {
               "name": {
-                "value": "node"
+                "vale": "freeCodeCamp"
               }
             },
             {
               "name": {
-                "value": "react"
+                "vale": "bootstrap"
               }
             },
             {
               "name": {
-                "value": "angular"
+                "vale": "react"
               }
             },
             {
               "name": {
-                "value": "webpack"
+                "vale": "vue"
               }
             },
             {
               "name": {
-                "value": "vue"
+                "vale": "You-Dont-Know-JS"
+              }
+            },
+            {
+              "name": {
+                "vale": "javascript"
+              }
+            },
+            {
+              "name": {
+                "vale": "electron"
+              }
+            },
+            {
+              "name": {
+                "vale": "jquery"
+              }
+            },
+            {
+              "name": {
+                "vale": "node"
+              }
+            },
+            {
+              "name": {
+                "vale": "atom"
+              }
+            },
+            {
+              "name": {
+                "vale": "three.js"
+              }
+            },
+            {
+              "name": {
+                "vale": "html5-boilerplate"
+              }
+            },
+            {
+              "name": {
+                "vale": "redux"
+              }
+            },
+            {
+              "name": {
+                "vale": "webpack"
+              }
+            },
+            {
+              "name": {
+                "vale": "axios"
+              }
+            },
+            {
+              "name": {
+                "vale": "meteor"
+              }
+            },
+            {
+              "name": {
+                "vale": "express"
+              }
+            },
+            {
+              "name": {
+                "vale": "moment"
+              }
+            },
+            {
+              "name": {
+                "vale": "Chart.js"
+              }
+            },
+            {
+              "name": {
+                "vale": "angular"
+              }
+            },
+            {
+              "name": {
+                "vale": "material-ui"
+              }
+            },
+            {
+              "name": {
+                "vale": "ionic"
+              }
+            },
+            {
+              "name": {
+                "vale": "nw.js"
+              }
+            },
+            {
+              "name": {
+                "vale": "TypeScript"
+              }
+            },
+            {
+              "name": {
+                "vale": "materialize"
+              }
+            },
+            {
+              "name": {
+                "vale": "yarn"
+              }
+            },
+            {
+              "name": {
+                "vale": "free-programming-books-zh_CN"
+              }
+            },
+            {
+              "name": {
+                "vale": "lodash"
+              }
+            },
+            {
+              "name": {
+                "vale": "brackets"
+              }
+            },
+            {
+              "name": {
+                "vale": "babel"
+              }
+            },
+            {
+              "name": {
+                "vale": "Front-End-Checklist"
+              }
+            },
+            {
+              "name": {
+                "vale": "incubator-echarts"
+              }
+            },
+            {
+              "name": {
+                "vale": "element"
+              }
+            },
+            {
+              "name": {
+                "vale": "Ghost"
+              }
+            },
+            {
+              "name": {
+                "vale": "phantomjs"
+              }
+            },
+            {
+              "name": {
+                "vale": "discourse"
+              }
+            },
+            {
+              "name": {
+                "vale": "freecodecamp.cn"
+              }
+            },
+            {
+              "name": {
+                "vale": "nylas-mail"
+              }
+            },
+            {
+              "name": {
+                "vale": "async"
+              }
+            },
+            {
+              "name": {
+                "vale": "prettier"
+              }
+            },
+            {
+              "name": {
+                "vale": "immutable-js"
+              }
+            },
+            {
+              "name": {
+                "vale": "awesome-nodejs"
+              }
+            },
+            {
+              "name": {
+                "vale": "fullPage.js"
+              }
+            },
+            {
+              "name": {
+                "vale": "serverless"
+              }
+            },
+            {
+              "name": {
+                "vale": "underscore"
+              }
+            },
+            {
+              "name": {
+                "vale": "storybook"
+              }
+            },
+            {
+              "name": {
+                "vale": "Modernizr"
+              }
+            },
+            {
+              "name": {
+                "vale": "hyper"
+              }
+            },
+            {
+              "name": {
+                "vale": "select2"
+              }
+            },
+            {
+              "name": {
+                "vale": "clipboard.js"
+              }
+            },
+            {
+              "name": {
+                "vale": "pdf.js"
+              }
+            },
+            {
+              "name": {
+                "vale": "hexo"
+              }
+            },
+            {
+              "name": {
+                "vale": "parcel"
+              }
+            },
+            {
+              "name": {
+                "vale": "Leaflet"
+              }
+            },
+            {
+              "name": {
+                "vale": "phaser"
+              }
+            },
+            {
+              "name": {
+                "vale": "video.js"
+              }
+            },
+            {
+              "name": {
+                "vale": "anime"
+              }
+            },
+            {
+              "name": {
+                "vale": "30-seconds-of-code"
+              }
+            },
+            {
+              "name": {
+                "vale": "RxJS"
+              }
+            },
+            {
+              "name": {
+                "vale": "ember.js"
+              }
+            },
+            {
+              "name": {
+                "vale": "awesome-interview-questions"
+              }
+            },
+            {
+              "name": {
+                "vale": "fetch"
+              }
+            },
+            {
+              "name": {
+                "vale": "pixi.js"
+              }
+            },
+            {
+              "name": {
+                "vale": "sweetalert"
+              }
+            },
+            {
+              "name": {
+                "vale": "hammer.js"
+              }
+            },
+            {
+              "name": {
+                "vale": "clean-code-javascript"
+              }
+            },
+            {
+              "name": {
+                "vale": "skrollr"
+              }
+            },
+            {
+              "name": {
+                "vale": "dragula"
+              }
+            },
+            {
+              "name": {
+                "vale": "standard"
+              }
+            },
+            {
+              "name": {
+                "vale": "react-starter-kit"
+              }
+            },
+            {
+              "name": {
+                "vale": "Rocket.Chat"
+              }
+            },
+            {
+              "name": {
+                "vale": "project-guidelines"
+              }
+            },
+            {
+              "name": {
+                "vale": "js-stack-from-scratch"
+              }
+            },
+            {
+              "name": {
+                "vale": "jest"
+              }
+            },
+            {
+              "name": {
+                "vale": "modern-js-cheatsheet"
+              }
+            },
+            {
+              "name": {
+                "vale": "intro.js"
+              }
+            },
+            {
+              "name": {
+                "vale": "webtorrent"
+              }
+            },
+            {
+              "name": {
+                "vale": "PhotoSwipe"
+              }
+            },
+            {
+              "name": {
+                "vale": "flow"
+              }
+            },
+            {
+              "name": {
+                "vale": "npm"
+              }
+            },
+            {
+              "name": {
+                "vale": "bower"
+              }
+            },
+            {
+              "name": {
+                "vale": "mocha"
+              }
+            },
+            {
+              "name": {
+                "vale": "scrollreveal"
+              }
+            },
+            {
+              "name": {
+                "vale": "particles.js"
+              }
+            },
+            {
+              "name": {
+                "vale": "coffeescript"
+              }
+            },
+            {
+              "name": {
+                "vale": "mobx"
+              }
+            },
+            {
+              "name": {
+                "vale": "emscripten"
+              }
+            },
+            {
+              "name": {
+                "vale": "reddit"
+              }
+            },
+            {
+              "name": {
+                "vale": "velocity"
+              }
+            },
+            {
+              "name": {
+                "vale": "ratchet"
+              }
+            },
+            {
+              "name": {
+                "vale": "q"
+              }
+            },
+            {
+              "name": {
+                "vale": "iview"
+              }
+            },
+            {
+              "name": {
+                "vale": "sequelize"
+              }
+            },
+            {
+              "name": {
+                "vale": "vuex"
+              }
+            },
+            {
+              "name": {
+                "vale": "awesome-javascript"
+              }
+            },
+            {
+              "name": {
+                "vale": "ui-router"
+              }
+            },
+            {
+              "name": {
+                "vale": "idiomatic.js"
+              }
+            },
+            {
+              "name": {
+                "vale": "faker.js"
+              }
+            },
+            {
+              "name": {
+                "vale": "incubator-mxnet"
+              }
+            },
+            {
+              "name": {
+                "vale": "zepto"
               }
             }
           ]
@@ -44,14 +519,14 @@
           "samples": []
         },
         {
-          "name":"RepoUpdates",
-          "slots":[
+          "name": "RepoUpdates",
+          "slots": [
             {
-              "name":"repo_name",
-              "type":"REPO"
+              "name": "repo_name",
+              "type": "REPO"
             }
           ],
-          "samples":[
+          "samples": [
             "update me on {repo_name}",
             "what's the latest on {repo_name}",
             "what's new with {repo_name}",
@@ -63,8 +538,8 @@
           ]
         },
         {
-          "name":"FavoriteUpdates",
-          "samples":[
+          "name": "FavoriteUpdates",
+          "samples": [
             "favorites",
             "favorites updates",
             "update me on my favorites",
@@ -78,8 +553,8 @@
           ]
         },
         {
-          "name":"GetFavorites",
-          "samples":[
+          "name": "GetFavorites",
+          "samples": [
             "what are my favorites",
             "tell me my favorites",
             "list favorites",
@@ -87,8 +562,8 @@
           ]
         },
         {
-          "name":"RemoveFavorites",
-          "samples":[
+          "name": "RemoveFavorites",
+          "samples": [
             "delete all favorites",
             "remove all favorites",
             "delete favorites",
@@ -96,28 +571,28 @@
           ]
         },
         {
-          "name":"AddFavorite",
-          "slots":[
+          "name": "AddFavorite",
+          "slots": [
             {
-              "name":"repo_name",
-              "type":"REPO"
+              "name": "repo_name",
+              "type": "REPO"
             }
           ],
-          "samples":[
+          "samples": [
             "add favorite {repo_name}",
             "set favorite {repo_name}",
             "add favorites {repo_name}"
           ]
         },
         {
-          "name":"RemoveFavorite",
-          "slots":[
+          "name": "RemoveFavorite",
+          "slots": [
             {
-              "name":"repo_name",
-              "type":"REPO"
+              "name": "repo_name",
+              "type": "REPO"
             }
           ],
-          "samples":[
+          "samples": [
             "delete favorite {repo_name}",
             "remove favorite {repo_name}",
             "remove favorites {repo_name}"

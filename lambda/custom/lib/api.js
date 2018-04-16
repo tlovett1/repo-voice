@@ -71,6 +71,7 @@ module.exports.getLatestRelease = function(repoKey) {
   var repo = repos[repoKey];
 
   return new Promise(function(resolve, reject) {
+    console.log('https://api.github.com/repos/' + repo.owner + '/' + repo.name + '/releases/latest');
     request({
       uri: 'https://api.github.com/repos/' + repo.owner + '/' + repo.name + '/releases/latest',
       json: true,

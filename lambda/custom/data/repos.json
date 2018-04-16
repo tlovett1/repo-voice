@@ -23,5 +23,480 @@
     "owner": "vuejs",
     "name": "vue",
     "niceName": "vue"
+  },
+  "freeCodeCamp": {
+    "owner": "freeCodeCamp",
+    "name": "freeCodeCamp",
+    "niceName": "freeCodeCamp"
+  },
+  "bootstrap": {
+    "owner": "twbs",
+    "name": "bootstrap",
+    "niceName": "bootstrap"
+  },
+  "You-Dont-Know-JS": {
+    "owner": "getify",
+    "name": "You-Dont-Know-JS",
+    "niceName": "You Dont Know JS"
+  },
+  "javascript": {
+    "owner": "airbnb",
+    "name": "javascript",
+    "niceName": "javascript"
+  },
+  "electron": {
+    "owner": "electron",
+    "name": "electron",
+    "niceName": "electron"
+  },
+  "jquery": {
+    "owner": "jquery",
+    "name": "jquery",
+    "niceName": "jquery"
+  },
+  "atom": {
+    "owner": "atom",
+    "name": "atom",
+    "niceName": "atom"
+  },
+  "three.js": {
+    "owner": "mrdoob",
+    "name": "three.js",
+    "niceName": "three.js"
+  },
+  "html5-boilerplate": {
+    "owner": "h5bp",
+    "name": "html5-boilerplate",
+    "niceName": "html5 boilerplate"
+  },
+  "redux": {
+    "owner": "reactjs",
+    "name": "redux",
+    "niceName": "redux"
+  },
+  "axios": {
+    "owner": "axios",
+    "name": "axios",
+    "niceName": "axios"
+  },
+  "meteor": {
+    "owner": "meteor",
+    "name": "meteor",
+    "niceName": "meteor"
+  },
+  "express": {
+    "owner": "expressjs",
+    "name": "express",
+    "niceName": "express"
+  },
+  "moment": {
+    "owner": "moment",
+    "name": "moment",
+    "niceName": "moment"
+  },
+  "Chart.js": {
+    "owner": "chartjs",
+    "name": "Chart.js",
+    "niceName": "Chart.js"
+  },
+  "material-ui": {
+    "owner": "mui-org",
+    "name": "material-ui",
+    "niceName": "material ui"
+  },
+  "ionic": {
+    "owner": "ionic-team",
+    "name": "ionic",
+    "niceName": "ionic"
+  },
+  "nw.js": {
+    "owner": "nwjs",
+    "name": "nw.js",
+    "niceName": "nw.js"
+  },
+  "TypeScript": {
+    "owner": "Microsoft",
+    "name": "TypeScript",
+    "niceName": "TypeScript"
+  },
+  "materialize": {
+    "owner": "Dogfalo",
+    "name": "materialize",
+    "niceName": "materialize"
+  },
+  "yarn": {
+    "owner": "yarnpkg",
+    "name": "yarn",
+    "niceName": "yarn"
+  },
+  "free-programming-books-zh_CN": {
+    "owner": "justjavac",
+    "name": "free-programming-books-zh_CN",
+    "niceName": "free programming books zh CN"
+  },
+  "lodash": {
+    "owner": "lodash",
+    "name": "lodash",
+    "niceName": "lodash"
+  },
+  "brackets": {
+    "owner": "adobe",
+    "name": "brackets",
+    "niceName": "brackets"
+  },
+  "babel": {
+    "owner": "babel",
+    "name": "babel",
+    "niceName": "babel"
+  },
+  "Front-End-Checklist": {
+    "owner": "thedaviddias",
+    "name": "Front-End-Checklist",
+    "niceName": "Front End Checklist"
+  },
+  "incubator-echarts": {
+    "owner": "apache",
+    "name": "incubator-echarts",
+    "niceName": "incubator echarts"
+  },
+  "element": {
+    "owner": "ElemeFE",
+    "name": "element",
+    "niceName": "element"
+  },
+  "Ghost": {
+    "owner": "TryGhost",
+    "name": "Ghost",
+    "niceName": "Ghost"
+  },
+  "phantomjs": {
+    "owner": "ariya",
+    "name": "phantomjs",
+    "niceName": "phantomjs"
+  },
+  "discourse": {
+    "owner": "discourse",
+    "name": "discourse",
+    "niceName": "discourse"
+  },
+  "freecodecamp.cn": {
+    "owner": "FreeCodeCampChina",
+    "name": "freecodecamp.cn",
+    "niceName": "freecodecamp.cn"
+  },
+  "nylas-mail": {
+    "owner": "nylas",
+    "name": "nylas-mail",
+    "niceName": "nylas mail"
+  },
+  "async": {
+    "owner": "caolan",
+    "name": "async",
+    "niceName": "async"
+  },
+  "prettier": {
+    "owner": "prettier",
+    "name": "prettier",
+    "niceName": "prettier"
+  },
+  "immutable-js": {
+    "owner": "facebook",
+    "name": "immutable-js",
+    "niceName": "immutable js"
+  },
+  "awesome-nodejs": {
+    "owner": "sindresorhus",
+    "name": "awesome-nodejs",
+    "niceName": "awesome nodejs"
+  },
+  "fullPage.js": {
+    "owner": "alvarotrigo",
+    "name": "fullPage.js",
+    "niceName": "fullPage.js"
+  },
+  "serverless": {
+    "owner": "serverless",
+    "name": "serverless",
+    "niceName": "serverless"
+  },
+  "underscore": {
+    "owner": "jashkenas",
+    "name": "underscore",
+    "niceName": "underscore"
+  },
+  "storybook": {
+    "owner": "storybooks",
+    "name": "storybook",
+    "niceName": "storybook"
+  },
+  "Modernizr": {
+    "owner": "Modernizr",
+    "name": "Modernizr",
+    "niceName": "Modernizr"
+  },
+  "hyper": {
+    "owner": "zeit",
+    "name": "hyper",
+    "niceName": "hyper"
+  },
+  "select2": {
+    "owner": "select2",
+    "name": "select2",
+    "niceName": "select2"
+  },
+  "clipboard.js": {
+    "owner": "zenorocha",
+    "name": "clipboard.js",
+    "niceName": "clipboard.js"
+  },
+  "pdf.js": {
+    "owner": "mozilla",
+    "name": "pdf.js",
+    "niceName": "pdf.js"
+  },
+  "hexo": {
+    "owner": "hexojs",
+    "name": "hexo",
+    "niceName": "hexo"
+  },
+  "parcel": {
+    "owner": "parcel-bundler",
+    "name": "parcel",
+    "niceName": "parcel"
+  },
+  "Leaflet": {
+    "owner": "Leaflet",
+    "name": "Leaflet",
+    "niceName": "Leaflet"
+  },
+  "phaser": {
+    "owner": "photonstorm",
+    "name": "phaser",
+    "niceName": "phaser"
+  },
+  "video.js": {
+    "owner": "videojs",
+    "name": "video.js",
+    "niceName": "video.js"
+  },
+  "anime": {
+    "owner": "juliangarnier",
+    "name": "anime",
+    "niceName": "anime"
+  },
+  "30-seconds-of-code": {
+    "owner": "Chalarangelo",
+    "name": "30-seconds-of-code",
+    "niceName": "30 seconds of code"
+  },
+  "RxJS": {
+    "owner": "Reactive-Extensions",
+    "name": "RxJS",
+    "niceName": "RxJS"
+  },
+  "ember.js": {
+    "owner": "emberjs",
+    "name": "ember.js",
+    "niceName": "ember.js"
+  },
+  "awesome-interview-questions": {
+    "owner": "MaximAbramchuck",
+    "name": "awesome-interview-questions",
+    "niceName": "awesome interview questions"
+  },
+  "fetch": {
+    "owner": "github",
+    "name": "fetch",
+    "niceName": "fetch"
+  },
+  "pixi.js": {
+    "owner": "pixijs",
+    "name": "pixi.js",
+    "niceName": "pixi.js"
+  },
+  "sweetalert": {
+    "owner": "t4t5",
+    "name": "sweetalert",
+    "niceName": "sweetalert"
+  },
+  "hammer.js": {
+    "owner": "hammerjs",
+    "name": "hammer.js",
+    "niceName": "hammer.js"
+  },
+  "clean-code-javascript": {
+    "owner": "ryanmcdermott",
+    "name": "clean-code-javascript",
+    "niceName": "clean code javascript"
+  },
+  "skrollr": {
+    "owner": "Prinzhorn",
+    "name": "skrollr",
+    "niceName": "skrollr"
+  },
+  "dragula": {
+    "owner": "bevacqua",
+    "name": "dragula",
+    "niceName": "dragula"
+  },
+  "standard": {
+    "owner": "standard",
+    "name": "standard",
+    "niceName": "standard"
+  },
+  "react-starter-kit": {
+    "owner": "kriasoft",
+    "name": "react-starter-kit",
+    "niceName": "react starter kit"
+  },
+  "Rocket.Chat": {
+    "owner": "RocketChat",
+    "name": "Rocket.Chat",
+    "niceName": "Rocket.Chat"
+  },
+  "project-guidelines": {
+    "owner": "elsewhencode",
+    "name": "project-guidelines",
+    "niceName": "project guidelines"
+  },
+  "js-stack-from-scratch": {
+    "owner": "verekia",
+    "name": "js-stack-from-scratch",
+    "niceName": "js stack from scratch"
+  },
+  "jest": {
+    "owner": "facebook",
+    "name": "jest",
+    "niceName": "jest"
+  },
+  "modern-js-cheatsheet": {
+    "owner": "mbeaudru",
+    "name": "modern-js-cheatsheet",
+    "niceName": "modern js cheatsheet"
+  },
+  "intro.js": {
+    "owner": "usablica",
+    "name": "intro.js",
+    "niceName": "intro.js"
+  },
+  "webtorrent": {
+    "owner": "webtorrent",
+    "name": "webtorrent",
+    "niceName": "webtorrent"
+  },
+  "PhotoSwipe": {
+    "owner": "dimsemenov",
+    "name": "PhotoSwipe",
+    "niceName": "PhotoSwipe"
+  },
+  "flow": {
+    "owner": "facebook",
+    "name": "flow",
+    "niceName": "flow"
+  },
+  "npm": {
+    "owner": "npm",
+    "name": "npm",
+    "niceName": "npm"
+  },
+  "bower": {
+    "owner": "bower",
+    "name": "bower",
+    "niceName": "bower"
+  },
+  "mocha": {
+    "owner": "mochajs",
+    "name": "mocha",
+    "niceName": "mocha"
+  },
+  "scrollreveal": {
+    "owner": "jlmakes",
+    "name": "scrollreveal",
+    "niceName": "scrollreveal"
+  },
+  "particles.js": {
+    "owner": "VincentGarreau",
+    "name": "particles.js",
+    "niceName": "particles.js"
+  },
+  "coffeescript": {
+    "owner": "jashkenas",
+    "name": "coffeescript",
+    "niceName": "coffeescript"
+  },
+  "mobx": {
+    "owner": "mobxjs",
+    "name": "mobx",
+    "niceName": "mobx"
+  },
+  "emscripten": {
+    "owner": "kripken",
+    "name": "emscripten",
+    "niceName": "emscripten"
+  },
+  "reddit": {
+    "owner": "reddit-archive",
+    "name": "reddit",
+    "niceName": "reddit"
+  },
+  "velocity": {
+    "owner": "julianshapiro",
+    "name": "velocity",
+    "niceName": "velocity"
+  },
+  "ratchet": {
+    "owner": "twbs",
+    "name": "ratchet",
+    "niceName": "ratchet"
+  },
+  "q": {
+    "owner": "kriskowal",
+    "name": "q",
+    "niceName": "q"
+  },
+  "iview": {
+    "owner": "iview",
+    "name": "iview",
+    "niceName": "iview"
+  },
+  "sequelize": {
+    "owner": "sequelize",
+    "name": "sequelize",
+    "niceName": "sequelize"
+  },
+  "vuex": {
+    "owner": "vuejs",
+    "name": "vuex",
+    "niceName": "vuex"
+  },
+  "awesome-javascript": {
+    "owner": "sorrycc",
+    "name": "awesome-javascript",
+    "niceName": "awesome javascript"
+  },
+  "ui-router": {
+    "owner": "angular-ui",
+    "name": "ui-router",
+    "niceName": "ui router"
+  },
+  "idiomatic.js": {
+    "owner": "rwaldron",
+    "name": "idiomatic.js",
+    "niceName": "idiomatic.js"
+  },
+  "faker.js": {
+    "owner": "Marak",
+    "name": "faker.js",
+    "niceName": "faker.js"
+  },
+  "incubator-mxnet": {
+    "owner": "apache",
+    "name": "incubator-mxnet",
+    "niceName": "incubator mxnet"
+  },
+  "zepto": {
+    "owner": "madrobby",
+    "name": "zepto",
+    "niceName": "zepto"
   }
 }

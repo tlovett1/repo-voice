@@ -3,5 +3,8 @@
   "scripts": {
     "setup": "ask setup",
     "deploy": "ask deploy"
+  },
+  "dependencies": {
+    "request-promise": "^4.2.2"
   }
 }
