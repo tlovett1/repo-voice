@@ -8,502 +8,502 @@
           "values": [
             {
               "name": {
-                "vale": "freeCodeCamp"
+                "value": "freeCodeCamp"
               }
             },
             {
               "name": {
-                "vale": "bootstrap"
+                "value": "bootstrap"
               }
             },
             {
               "name": {
-                "vale": "react"
+                "value": "react"
               }
             },
             {
               "name": {
-                "vale": "vue"
+                "value": "vue"
               }
             },
             {
               "name": {
-                "vale": "You-Dont-Know-JS"
+                "value": "You-Dont-Know-JS"
               }
             },
             {
               "name": {
-                "vale": "javascript"
+                "value": "javascript"
               }
             },
             {
               "name": {
-                "vale": "electron"
+                "value": "electron"
               }
             },
             {
               "name": {
-                "vale": "jquery"
+                "value": "jquery"
               }
             },
             {
               "name": {
-                "vale": "node"
+                "value": "node"
               }
             },
             {
               "name": {
-                "vale": "atom"
+                "value": "atom"
               }
             },
             {
               "name": {
-                "vale": "three.js"
+                "value": "three.js"
               }
             },
             {
               "name": {
-                "vale": "html5-boilerplate"
+                "value": "html5-boilerplate"
               }
             },
             {
               "name": {
-                "vale": "redux"
+                "value": "redux"
               }
             },
             {
               "name": {
-                "vale": "webpack"
+                "value": "webpack"
               }
             },
             {
               "name": {
-                "vale": "axios"
+                "value": "axios"
               }
             },
             {
               "name": {
-                "vale": "meteor"
+                "value": "meteor"
               }
             },
             {
               "name": {
-                "vale": "express"
+                "value": "express"
               }
             },
             {
               "name": {
-                "vale": "moment"
+                "value": "moment"
               }
             },
             {
               "name": {
-                "vale": "Chart.js"
+                "value": "Chart.js"
               }
             },
             {
               "name": {
-                "vale": "angular"
+                "value": "angular"
               }
             },
             {
               "name": {
-                "vale": "material-ui"
+                "value": "material-ui"
               }
             },
             {
               "name": {
-                "vale": "ionic"
+                "value": "ionic"
               }
             },
             {
               "name": {
-                "vale": "nw.js"
+                "value": "nw.js"
               }
             },
             {
               "name": {
-                "vale": "TypeScript"
+                "value": "TypeScript"
               }
             },
             {
               "name": {
-                "vale": "materialize"
+                "value": "materialize"
               }
             },
             {
               "name": {
-                "vale": "yarn"
+                "value": "yarn"
               }
             },
             {
               "name": {
-                "vale": "free-programming-books-zh_CN"
+                "value": "free-programming-books-zh_CN"
               }
             },
             {
               "name": {
-                "vale": "lodash"
+                "value": "lodash"
               }
             },
             {
               "name": {
-                "vale": "brackets"
+                "value": "brackets"
               }
             },
             {
               "name": {
-                "vale": "babel"
+                "value": "babel"
               }
             },
             {
               "name": {
-                "vale": "Front-End-Checklist"
+                "value": "Front-End-Checklist"
               }
             },
             {
               "name": {
-                "vale": "incubator-echarts"
+                "value": "incubator-echarts"
               }
             },
             {
               "name": {
-                "vale": "element"
+                "value": "element"
               }
             },
             {
               "name": {
-                "vale": "Ghost"
+                "value": "Ghost"
               }
             },
             {
               "name": {
-                "vale": "phantomjs"
+                "value": "phantomjs"
               }
             },
             {
               "name": {
-                "vale": "discourse"
+                "value": "discourse"
               }
             },
             {
               "name": {
-                "vale": "freecodecamp.cn"
+                "value": "freecodecamp.cn"
               }
             },
             {
               "name": {
-                "vale": "nylas-mail"
+                "value": "nylas-mail"
               }
             },
             {
               "name": {
-                "vale": "async"
+                "value": "async"
               }
             },
             {
               "name": {
-                "vale": "prettier"
+                "value": "prettier"
               }
             },
             {
               "name": {
-                "vale": "immutable-js"
+                "value": "immutable-js"
               }
             },
             {
               "name": {
-                "vale": "awesome-nodejs"
+                "value": "awesome-nodejs"
               }
             },
             {
               "name": {
-                "vale": "fullPage.js"
+                "value": "fullPage.js"
               }
             },
             {
               "name": {
-                "vale": "serverless"
+                "value": "serverless"
               }
             },
             {
               "name": {
-                "vale": "underscore"
+                "value": "underscore"
               }
             },
             {
               "name": {
-                "vale": "storybook"
+                "value": "storybook"
               }
             },
             {
               "name": {
-                "vale": "Modernizr"
+                "value": "Modernizr"
               }
             },
             {
               "name": {
-                "vale": "hyper"
+                "value": "hyper"
               }
             },
             {
               "name": {
-                "vale": "select2"
+                "value": "select2"
               }
             },
             {
               "name": {
-                "vale": "clipboard.js"
+                "value": "clipboard.js"
               }
             },
             {
               "name": {
-                "vale": "pdf.js"
+                "value": "pdf.js"
               }
             },
             {
               "name": {
-                "vale": "hexo"
+                "value": "hexo"
               }
             },
             {
               "name": {
-                "vale": "parcel"
+                "value": "parcel"
               }
             },
             {
               "name": {
-                "vale": "Leaflet"
+                "value": "Leaflet"
               }
             },
             {
               "name": {
-                "vale": "phaser"
+                "value": "phaser"
               }
             },
             {
               "name": {
-                "vale": "video.js"
+                "value": "video.js"
               }
             },
             {
               "name": {
-                "vale": "anime"
+                "value": "anime"
               }
             },
             {
               "name": {
-                "vale": "30-seconds-of-code"
+                "value": "30-seconds-of-code"
               }
             },
             {
               "name": {
-                "vale": "RxJS"
+                "value": "RxJS"
               }
             },
             {
               "name": {
-                "vale": "ember.js"
+                "value": "ember.js"
               }
             },
             {
               "name": {
-                "vale": "awesome-interview-questions"
+                "value": "awesome-interview-questions"
               }
             },
             {
               "name": {
-                "vale": "fetch"
+                "value": "fetch"
               }
             },
             {
               "name": {
-                "vale": "pixi.js"
+                "value": "pixi.js"
               }
             },
             {
               "name": {
-                "vale": "sweetalert"
+                "value": "sweetalert"
               }
             },
             {
               "name": {
-                "vale": "hammer.js"
+                "value": "hammer.js"
               }
             },
             {
               "name": {
-                "vale": "clean-code-javascript"
+                "value": "clean-code-javascript"
               }
             },
             {
               "name": {
-                "vale": "skrollr"
+                "value": "skrollr"
               }
             },
             {
               "name": {
-                "vale": "dragula"
+                "value": "dragula"
               }
             },
             {
               "name": {
-                "vale": "standard"
+                "value": "standard"
               }
             },
             {
               "name": {
-                "vale": "react-starter-kit"
+                "value": "react-starter-kit"
               }
             },
             {
               "name": {
-                "vale": "Rocket.Chat"
+                "value": "Rocket.Chat"
               }
             },
             {
               "name": {
-                "vale": "project-guidelines"
+                "value": "project-guidelines"
               }
             },
             {
               "name": {
-                "vale": "js-stack-from-scratch"
+                "value": "js-stack-from-scratch"
               }
             },
             {
               "name": {
-                "vale": "jest"
+                "value": "jest"
               }
             },
             {
               "name": {
-                "vale": "modern-js-cheatsheet"
+                "value": "modern-js-cheatsheet"
               }
             },
             {
               "name": {
-                "vale": "intro.js"
+                "value": "intro.js"
               }
             },
             {
               "name": {
-                "vale": "webtorrent"
+                "value": "webtorrent"
               }
             },
             {
               "name": {
-                "vale": "PhotoSwipe"
+                "value": "PhotoSwipe"
               }
             },
             {
               "name": {
-                "vale": "flow"
+                "value": "flow"
               }
             },
             {
               "name": {
-                "vale": "npm"
+                "value": "npm"
               }
             },
             {
               "name": {
-                "vale": "bower"
+                "value": "bower"
               }
             },
             {
               "name": {
-                "vale": "mocha"
+                "value": "mocha"
               }
             },
             {
               "name": {
-                "vale": "scrollreveal"
+                "value": "scrollreveal"
               }
             },
             {
               "name": {
-                "vale": "particles.js"
+                "value": "particles.js"
               }
             },
             {
               "name": {
-                "vale": "coffeescript"
+                "value": "coffeescript"
               }
             },
             {
               "name": {
-                "vale": "mobx"
+                "value": "mobx"
               }
             },
             {
               "name": {
-                "vale": "emscripten"
+                "value": "emscripten"
               }
             },
             {
               "name": {
-                "vale": "reddit"
+                "value": "reddit"
               }
             },
             {
               "name": {
-                "vale": "velocity"
+                "value": "velocity"
               }
             },
             {
               "name": {
-                "vale": "ratchet"
+                "value": "ratchet"
               }
             },
             {
               "name": {
-                "vale": "q"
+                "value": "q"
               }
             },
             {
               "name": {
-                "vale": "iview"
+                "value": "iview"
               }
             },
             {
               "name": {
-                "vale": "sequelize"
+                "value": "sequelize"
               }
             },
             {
               "name": {
-                "vale": "vuex"
+                "value": "vuex"
               }
             },
             {
               "name": {
-                "vale": "awesome-javascript"
+                "value": "awesome-javascript"
               }
             },
             {
               "name": {
-                "vale": "ui-router"
+                "value": "ui-router"
               }
             },
             {
               "name": {
-                "vale": "idiomatic.js"
+                "value": "idiomatic.js"
               }
             },
             {
               "name": {
-                "vale": "faker.js"
+                "value": "faker.js"
               }
             },
             {
               "name": {
-                "vale": "incubator-mxnet"
+                "value": "incubator-mxnet"
               }
             },
             {
               "name": {
-                "vale": "zepto"
+                "value": "zepto"
               }
             }
           ]

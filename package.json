@@ -5,6 +5,7 @@
     "deploy": "ask deploy"
   },
   "dependencies": {
+    "lodash": "^4.17.5",
     "request-promise": "^4.2.2"
   }
 }
