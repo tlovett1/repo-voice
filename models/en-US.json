@@ -36,6 +36,14 @@
       ],
       "intents": [
         {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
           "name":"RepoUpdates",
           "slots":[
             {
@@ -60,6 +68,7 @@
             "favorites",
             "favorites updates",
             "update me on my favorites",
+            "to update me on my favorites",
             "what are the updates on my favorites",
             "favorite updates",
             "updates on my favorites",
