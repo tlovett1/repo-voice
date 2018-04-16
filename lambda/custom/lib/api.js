@@ -1,22 +1,21 @@
 const request = require('request-promise');
+const repos = require('../data/repos.json');
 
 module.exports = {};
 
-module.exports.getReposUpdates = function(repos) {
+module.exports.getReposUpdates = function(repoKeys) {
   var promises = [];
 
-  Object.keys(repos).forEach(function(repoKey) {
-    var repo = repos[repoKey];
-
-    var latest = module.exports.getLatestRelease(repo.owner, repo.name);
+  repoKeys.forEach(function(repoKey) {
+    var latest = module.exports.getLatestRelease(repoKey);
 
     promises.push(latest);
 
-    var issues = module.exports.getIssues(repo.owner, repo.name);
+    var issues = module.exports.getIssues(repoKey);
 
     promises.push(issues);
 
-    var pulls = module.exports.getPullRequests(repo.owner, repo.name);
+    var pulls = module.exports.getPullRequests(repoKey);
 
     promises.push(pulls);
   });
@@ -24,28 +23,30 @@ module.exports.getReposUpdates = function(repos) {
  return Promise.all(promises);
 };
 
-module.exports.getRepoUpdates = function(owner, name) {
+module.exports.getRepoUpdates = function(repoKey) {
   var promises = [];
 
-  var latest = module.exports.getLatestRelease(owner, name);
+  var latest = module.exports.getLatestRelease(repoKey);
 
   promises.push(latest);
 
-  var issues = module.exports.getIssues(owner, name);
+  var issues = module.exports.getIssues(repoKey);
 
   promises.push(issues);
 
-  var pulls = module.exports.getPullRequests(owner, name);
+  var pulls = module.exports.getPullRequests(repoKey);
 
   promises.push(pulls);
 
  return Promise.all(promises);
 };
 
-module.exports.getPullRequests = function(owner, name) {
+module.exports.getPullRequests = function(repoKey) {
+  var repo = repos[repoKey];
+
   return new Promise(function(resolve, reject) {
     request({
-      uri: 'https://api.github.com/repos/' + owner + '/' + name + '/pulls',
+      uri: 'https://api.github.com/repos/' + repo.owner + '/' + repo.name + '/pulls',
       json: true,
       headers: {
         'user-agent': 'GitHub Alexa'
@@ -55,8 +56,7 @@ module.exports.getPullRequests = function(owner, name) {
 
       resolve({
         type: 'pull_requests',
-        owner: owner,
-        name: name,
+        repoKey: repoKey,
         result: json
       });
     }).catch(function(err) {
@@ -67,10 +67,12 @@ module.exports.getPullRequests = function(owner, name) {
   });
 };
 
-module.exports.getLatestRelease = function(owner, name) {
+module.exports.getLatestRelease = function(repoKey) {
+  var repo = repos[repoKey];
+
   return new Promise(function(resolve, reject) {
     request({
-      uri: 'https://api.github.com/repos/' + owner + '/' + name + '/releases/latest',
+      uri: 'https://api.github.com/repos/' + repo.owner + '/' + repo.name + '/releases/latest',
       json: true,
       headers: {
         'user-agent': 'GitHub Alexa'
@@ -80,8 +82,7 @@ module.exports.getLatestRelease = function(owner, name) {
 
       resolve({
         type: 'latest_release',
-        owner: owner,
-        name: name,
+        repoKey: repoKey,
         result: json
       });
     }).catch(function(err) {
@@ -92,10 +93,12 @@ module.exports.getLatestRelease = function(owner, name) {
   });
 };
 
-module.exports.getIssues = function(owner, name) {
+module.exports.getIssues = function(repoKey) {
+  var repo = repos[repoKey];
+
   return new Promise(function(resolve, reject) {
     request({
-      uri: 'https://api.github.com/repos/' + owner + '/' + name + '/issues',
+      uri: 'https://api.github.com/repos/' + repo.owner + '/' + repo.name + '/issues',
       json: true,
       headers: {
         'user-agent': 'GitHub Alexa'
@@ -105,8 +108,7 @@ module.exports.getIssues = function(owner, name) {
 
       resolve({
         type: 'issues',
-        owner: owner,
-        name: name,
+        repoKey: repoKey,
         result: json
       });
     }).catch(function(err) {

@@ -47,7 +47,11 @@
             "update me on {repo_name}",
             "what's the latest on {repo_name}",
             "what's new with {repo_name}",
-            "tell me about {repo_name}"
+            "tell me about {repo_name}",
+            "updates on {repo_name}",
+            "for updates on {repo_name}",
+            "news on {repo_name}",
+            "for news on {repo_name}"
           ]
         },
         {
@@ -59,7 +63,9 @@
             "what are the updates on my favorites",
             "favorite updates",
             "updates on my favorites",
-            "updates"
+            "updates",
+            "for updates",
+            "for my updates"
           ]
         },
         {
@@ -69,6 +75,15 @@
             "tell me my favorites",
             "list favorites",
             "list my favorites"
+          ]
+        },
+        {
+          "name":"RemoveFavorites",
+          "samples":[
+            "delete all favorites",
+            "remove all favorites",
+            "delete favorites",
+            "remove favorites"
           ]
         },
         {

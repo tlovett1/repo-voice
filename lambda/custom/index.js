@@ -32,7 +32,7 @@ const handlers = {
 
     var speech = 'Here are the updates on ' + repoKey + '. ';
 
-    var updates = api.getRepoUpdates(repo.owner, repo.name);
+    var updates = api.getRepoUpdates(repoKey);
 
     updates.then(function(results) {
       results.forEach(function(result) {
@@ -49,8 +49,17 @@ const handlers = {
   'GetFavorites': function() {
     if (!this.attributes.favorites) {
       this.response.speak("You currently have no favorites. Tell alexa add favorite to add one.");
+      this.emit(':responseReady');
+      return;
     }
 
+    var speech = 'Here are your favorites: ';
+
+    Object.keys(this.attributes.favorites).forEach(function(repoKey) {
+      speech += ', ' + repoKey;
+    });
+
+    this.response.speak(speech);
     this.emit(':responseReady');
   },
 
@@ -104,24 +113,44 @@ const handlers = {
     this.emit(':responseReady');
   },
 
+  'RemoveAllFavorites': function() {
+    if (!this.attributes.favorites) {
+      this.response.speak("You currently have no favorites.");
+      this.emit(':responseReady');
+      return;
+    }
+
+    this.attributes.favorites = {};
+
+    this.response.speak("All favorites have been removed.");
+
+    this.emit(':responseReady');
+  },
+
   'FavoriteUpdates': function() {
+    if (!this.attributes.favorites) {
+      this.response.speak("You currently have no favorites. Tell Alexa to add a favorite.");
+      this.emit(':responseReady');
+      return;
+    }
+
     var self = this;
 
-    var favoriteUpdates = api.getReposUpdates(_.values(repos));
+    var favoriteUpdates = api.getReposUpdates(Object.keys(this.attributes.favorites));
     var repoData = {};
 
     var speech = 'Here are the updates on your favorite repos. ';
 
     favoriteUpdates.then(function(results) {
       results.forEach(function(result) {
-        repos[result.owner + '/' + result.name][result.type] = result.result
+        repos[result.repoKey][result.type] = result.result
       });
 
-      for (repoKey in repos) {
+      Object.keys(self.attributes.favorites).forEach(function(repoKey) {
         var repo = repos[repoKey];
 
         speech += util.formatUpdateSpeech(repo);
-      }
+      });
 
       self.response.speak(speech);
       self.emit(':responseReady');

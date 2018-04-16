@@ -2,10 +2,6 @@
   "name": "alexa-github-wrapper",
   "scripts": {
     "setup": "ask setup",
-    "deploy": "ask deploy",
-    "setup-storage": "node setupStorage.js"
-  },
-  "dependencies": {
-    "aws-sdk": "^2.224.1"
+    "deploy": "ask deploy"
   }
 }

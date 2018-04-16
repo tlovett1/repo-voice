@@ -27,5 +27,7 @@ module.exports.formatUpdateSpeech = function(repo) {
     }
   });
 
+  speech += ' ' + totalIssuesOpened + ' issues have been created in the last 24 hours. ';
+
   return speech;
 };
