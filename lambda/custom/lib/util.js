@@ -1,33 +1,41 @@
 module.exports = {};
 
 module.exports.formatUpdateSpeech = function(repo) {
-  speech = ' The latest release for ' + repo.niceName + ' is ' + repo.latest_release.tag_name + '. ';
+  var speech = '';
 
-  var totalPrsOpened = 0;
+  if (repo.latest_release !== false) {
+    speech += ' The latest release for ' + repo.niceName + ' is ' + repo.latest_release.tag_name + '. ';
+  }
 
-  repo.pull_requests.forEach(function(pr) {
-    var lastUpdated = new Date(pr.created_at);
-    var yesterday = new Date(new Date().getTime() - (24 * 60 * 60 * 1000));
+  if (repo.pull_requests !== false) {
+    var totalPrsOpened = 0;
 
-    if (lastUpdated > yesterday) {
-      totalPrsOpened++;
-    }
-  });
+    repo.pull_requests.forEach(function(pr) {
+      var lastUpdated = new Date(pr.created_at);
+      var yesterday = new Date(new Date().getTime() - (24 * 60 * 60 * 1000));
 
-  speech += ' ' + totalPrsOpened + ' pull requests have been opened in the last 24 hours. ';
+      if (lastUpdated > yesterday) {
+        totalPrsOpened++;
+      }
+    });
 
-  var totalIssuesOpened = 0;
+    speech += ' ' + totalPrsOpened + ' pull requests have been opened in the last 24 hours. ';
+  }
 
-  repo.issues.forEach(function(issue) {
-    var lastUpdated = new Date(issue.created_at);
-    var yesterday = new Date(new Date().getTime() - (24 * 60 * 60 * 1000));
+  if (repo.issues !== false) {
+    var totalIssuesOpened = 0;
 
-    if (lastUpdated > yesterday) {
-      totalIssuesOpened++;
-    }
-  });
+    repo.issues.forEach(function(issue) {
+      var lastUpdated = new Date(issue.created_at);
+      var yesterday = new Date(new Date().getTime() - (24 * 60 * 60 * 1000));
 
-  speech += ' ' + totalIssuesOpened + ' issues have been created in the last 24 hours. ';
+      if (lastUpdated > yesterday) {
+        totalIssuesOpened++;
+      }
+    });
+
+    speech += ' ' + totalIssuesOpened + ' issues have been created in the last 24 hours. ';
+  }
 
   return speech;
 };

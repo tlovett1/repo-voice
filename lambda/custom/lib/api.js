@@ -52,17 +52,17 @@ module.exports.getPullRequests = function(repoKey) {
         'user-agent': 'GitHub Alexa'
       }
     }).then(function(json) {
-      console.log('pr done');
-
       resolve({
         type: 'pull_requests',
         repoKey: repoKey,
         result: json
       });
     }).catch(function(err) {
-      console.log(err.statusCode);
-
-      reject();
+      resolve({
+        type: 'pull_requests',
+        repoKey: repoKey,
+        result: false
+      });
     });
   });
 };
@@ -71,7 +71,6 @@ module.exports.getLatestRelease = function(repoKey) {
   var repo = repos[repoKey];
 
   return new Promise(function(resolve, reject) {
-    console.log('https://api.github.com/repos/' + repo.owner + '/' + repo.name + '/releases/latest');
     request({
       uri: 'https://api.github.com/repos/' + repo.owner + '/' + repo.name + '/releases/latest',
       json: true,
@@ -79,17 +78,17 @@ module.exports.getLatestRelease = function(repoKey) {
         'user-agent': 'GitHub Alexa'
       }
     }).then(function(json) {
-      console.log('latest release done');
-
       resolve({
         type: 'latest_release',
         repoKey: repoKey,
         result: json
       });
     }).catch(function(err) {
-      console.log(err.statusCode);
-
-      reject();
+      resolve({
+        type: 'latest_release',
+        repoKey: repoKey,
+        result: false
+      });
     });
   });
 };
@@ -105,17 +104,17 @@ module.exports.getIssues = function(repoKey) {
         'user-agent': 'GitHub Alexa'
       }
     }).then(function(json) {
-      console.log('issue done');
-
       resolve({
         type: 'issues',
         repoKey: repoKey,
         result: json
       });
     }).catch(function(err) {
-      console.log(err.statusCode);
-
-      reject();
+      resolve({
+        type: 'issues',
+        repoKey: repoKey,
+        result: false
+      });
     });
   });
 };
