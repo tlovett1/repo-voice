@@ -515,6 +515,10 @@
           "samples": []
         },
         {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
           "name": "AMAZON.StopIntent",
           "samples": []
         },
@@ -541,11 +545,15 @@
           "name": "FavoriteUpdates",
           "samples": [
             "favorites",
+            "get my favorite updates",
             "favorites updates",
             "update me on my favorites",
             "to update me on my favorites",
             "what are the updates on my favorites",
             "favorite updates",
+            "tell me about my favorites",
+            "tell me my updates",
+            "give me updates",
             "updates on my favorites",
             "updates",
             "for updates",
@@ -567,7 +575,11 @@
             "delete all favorites",
             "remove all favorites",
             "delete favorites",
-            "remove favorites"
+            "remove favorites",
+            "to delete all favorites",
+            "to remove all favorites",
+            "to delete favorites",
+            "to remove favorites"
           ]
         },
         {
@@ -580,8 +592,21 @@
           ],
           "samples": [
             "add favorite {repo_name}",
+            "add new favorite {repo_name}",
+            "add a favorite {repo_name}",
             "set favorite {repo_name}",
-            "add favorites {repo_name}"
+            "set new favorite {repo_name}",
+            "set a favorite {repo_name}",
+            "add favorites {repo_name}",
+            "set favorites {repo_name}",
+            "to add favorite {repo_name}",
+            "to add new favorite {repo_name}",
+            "to add a favorite {repo_name}",
+            "to set favorite {repo_name}",
+            "to set new favorite {repo_name}",
+            "to set a favorite {repo_name}",
+            "to add favorites {repo_name}",
+            "to set favorites {repo_name}"
           ]
         },
         {
@@ -595,7 +620,10 @@
           "samples": [
             "delete favorite {repo_name}",
             "remove favorite {repo_name}",
-            "remove favorites {repo_name}"
+            "remove favorites {repo_name}",
+            "to delete favorite {repo_name}",
+            "to remove favorite {repo_name}",
+            "to remove favorites {repo_name}"
           ]
         }
       ]

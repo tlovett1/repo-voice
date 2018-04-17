@@ -162,6 +162,15 @@ const handlers = {
     this.emit(':responseReady');
   },
 
+  'AMAZON.HelpIntent': function() {
+    this.response.speak(
+      "GitHub Voice let's you get updates on the GitHub repos of your choosing. Say Alexa ask GitHub for updates on my "
+      + "favorites. You can easily add and remove favorites. Say Alexa tell GitHub add favorite node. You can also get "
+      + "updates for specific repos. Say Alexa ask GitHub for updates on node."
+    );
+    this.emit(':responseReady');
+  },
+
   'AMAZON.CancelIntent': function() {
     this.response.speak('Bye');
     this.emit(':responseReady');
