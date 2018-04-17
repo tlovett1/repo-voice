@@ -4,6 +4,16 @@
     "name": "node",
     "niceName": "node"
   },
+  "elasticpress": {
+    "owner": "10up",
+    "name": "elasticpress",
+    "niceName": "elasticpress"
+  },
+  "elasticsearch": {
+    "owner": "elastic",
+    "name": "elasticsearch",
+    "niceName": "elasticsearch"
+  },
   "react": {
     "owner": "facebook",
     "name": "react",
