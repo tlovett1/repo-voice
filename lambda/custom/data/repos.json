@@ -7,12 +7,18 @@
   "elasticpress": {
     "owner": "10up",
     "name": "elasticpress",
-    "niceName": "elasticpress"
+    "niceName": "elasticpress",
+    "synonyms": [
+      "elastic press"
+    ]
   },
   "elasticsearch": {
     "owner": "elastic",
     "name": "elasticsearch",
-    "niceName": "elasticsearch"
+    "niceName": "elasticsearch",
+    "synonyms": [
+      "elastic search"
+    ]
   },
   "react": {
     "owner": "facebook",
@@ -27,7 +33,10 @@
   "wordpress": {
     "owner": "wordpress",
     "name": "wordpress",
-    "niceName": "wordpress"
+    "niceName": "wordpress",
+    "synonyms": [
+      "word press"
+    ]
   },
   "webpack": {
     "owner": "webpack",
@@ -2503,5 +2512,10 @@
     "owner": "mgechev",
     "name": "javascript-algorithms",
     "niceName": "javascript algorithms"
+  },
+  "text-mask": {
+    "owner": "text-mask",
+    "name": "text-mask",
+    "niceName": "text mask"
   }
 }

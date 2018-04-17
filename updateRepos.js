@@ -34,38 +34,38 @@ Promise.all(pagePromises).then(function(results) {
   console.log('Repos retrieved');
 
   var slotsByKey = {};
-  var slots = model.interactionModel.languageModel.types[0].values;
-
-  slots.forEach(function(slot) {
-    slotsByKey[slot.name.value] = {
-      name: {
-        value: slot.name.value
-      }
-    }
-  });
 
   results.forEach(function(json) {
     json.items.forEach(function(repo) {
-      repos[repo.name] = {
-        owner: repo.owner.login,
-        name: repo.name,
-        niceName: repo.name.replace(/(\-|_)/g, ' ')
-      };
+      if (!repos[repo.name]) {
+        repos[repo.name] = {};
+      }
 
-      slotsByKey[repo.name] = {
-        name: {
-          value: repo.name
-        }
-      };
-
+      repos[repo.name].owner = repo.owner.login;
+      repos[repo.name].name = repo.name;
+      repos[repo.name].niceName = repo.name.replace(/(\-|_)/g, ' ');
     });
   });
+
+  for (repoKey in repos) {
+    var repo = repos[repoKey];
+
+    slotsByKey[repo.name] = {
+      name: {
+        value: repo.name
+      }
+    };
+
+    if (repos[repo.name].synonyms) {
+      slotsByKey[repo.name].name.synonyms = repos[repo.name].synonyms;
+    }
+  }
 
   fs.writeFile('./lambda/custom/data/repos.json', JSON.stringify(repos, null, 2), 'utf8', function() {
     console.log('Updated repos data.');
   });
 
-  model.interactionModel.languageModel.types[0].values = _.values(slots);
+  model.interactionModel.languageModel.types[0].values = _.values(slotsByKey);
 
   fs.writeFile('./models/en-US.json', JSON.stringify(model, null, 2), 'utf8', function() {
     console.log('Updated model.');

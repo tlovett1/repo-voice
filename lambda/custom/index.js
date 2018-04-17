@@ -6,6 +6,8 @@ const util = require('./lib/util');
 const _ = require('lodash');
 
 exports.handler = function(event, context) {
+  console.log('Received event: ', JSON.stringify(event, null, 2));
+
   const alexa = Alexa.handler(event, context);
   alexa.dynamoDBTableName = 'github-voice';
   alexa.registerHandlers(handlers);
@@ -14,7 +16,7 @@ exports.handler = function(event, context) {
 
 const handlers = {
   'LaunchRequest': function() {
-    this.response.speak("Welcome to GitHub. Say give me updates on node or update me on my favorites.");
+    this.response.speak("Welcome to GitHub Voice. Say give me updates on node or update me on my favorites.");
     this.emit(':responseReady');
   },
 
@@ -164,9 +166,9 @@ const handlers = {
 
   'AMAZON.HelpIntent': function() {
     this.response.speak(
-      "GitHub Voice let's you get updates on the GitHub repos of your choosing. Say Alexa ask GitHub for updates on my "
-      + "favorites. You can easily add and remove favorites. Say Alexa tell GitHub add favorite node. You can also get "
-      + "updates for specific repos. Say Alexa ask GitHub for updates on node."
+      "GitHub Voice let's you get updates on the GitHub repos of your choosing. Say Alexa ask GitHub Voice for updates on my "
+      + "favorites. You can easily add and remove favorites. Say Alexa tell GitHub Voice add favorite node. You can also get "
+      + "updates for specific repos. Say Alexa ask GitHub Voice for updates on node."
     );
     this.emit(':responseReady');
   },

@@ -1,24 +1,30 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "github",
+      "invocationName": "github voice",
       "types": [
         {
           "name": "REPO",
           "values": [
             {
               "name": {
-                "value": "freeCodeCamp"
+                "value": "node"
               }
             },
             {
               "name": {
-                "value": "elasticpress"
+                "value": "elasticpress",
+                "synonyms": [
+                  "elastic press"
+                ]
               }
             },
             {
               "name": {
-                "value": "bootstrap"
+                "value": "elasticsearch",
+                "synonyms": [
+                  "elastic search"
+                ]
               }
             },
             {
@@ -28,7 +34,35 @@
             },
             {
               "name": {
+                "value": "angular"
+              }
+            },
+            {
+              "name": {
+                "value": "wordpress",
+                "synonyms": [
+                  "word press"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "webpack"
+              }
+            },
+            {
+              "name": {
                 "value": "vue"
+              }
+            },
+            {
+              "name": {
+                "value": "freeCodeCamp"
+              }
+            },
+            {
+              "name": {
+                "value": "bootstrap"
               }
             },
             {
@@ -53,11 +87,6 @@
             },
             {
               "name": {
-                "value": "node"
-              }
-            },
-            {
-              "name": {
                 "value": "atom"
               }
             },
@@ -74,11 +103,6 @@
             {
               "name": {
                 "value": "redux"
-              }
-            },
-            {
-              "name": {
-                "value": "webpack"
               }
             },
             {
@@ -104,11 +128,6 @@
             {
               "name": {
                 "value": "Chart.js"
-              }
-            },
-            {
-              "name": {
-                "value": "angular"
               }
             },
             {
@@ -510,6 +529,2001 @@
               "name": {
                 "value": "zepto"
               }
+            },
+            {
+              "name": {
+                "value": "dropzone"
+              }
+            },
+            {
+              "name": {
+                "value": "react-redux-links"
+              }
+            },
+            {
+              "name": {
+                "value": "ava"
+              }
+            },
+            {
+              "name": {
+                "value": "mostly-adequate-guide"
+              }
+            },
+            {
+              "name": {
+                "value": "jasmine"
+              }
+            },
+            {
+              "name": {
+                "value": "front-end-interview-handbook"
+              }
+            },
+            {
+              "name": {
+                "value": "enzyme"
+              }
+            },
+            {
+              "name": {
+                "value": "tesseract.js"
+              }
+            },
+            {
+              "name": {
+                "value": "nodebestpractices"
+              }
+            },
+            {
+              "name": {
+                "value": "NativeScript"
+              }
+            },
+            {
+              "name": {
+                "value": "mojs"
+              }
+            },
+            {
+              "name": {
+                "value": "You-Dont-Need-jQuery"
+              }
+            },
+            {
+              "name": {
+                "value": "Sortable"
+              }
+            },
+            {
+              "name": {
+                "value": "riot"
+              }
+            },
+            {
+              "name": {
+                "value": "feather"
+              }
+            },
+            {
+              "name": {
+                "value": "normalizr"
+              }
+            },
+            {
+              "name": {
+                "value": "wekan"
+              }
+            },
+            {
+              "name": {
+                "value": "layui"
+              }
+            },
+            {
+              "name": {
+                "value": "keystone"
+              }
+            },
+            {
+              "name": {
+                "value": "inferno"
+              }
+            },
+            {
+              "name": {
+                "value": "es6tutorial"
+              }
+            },
+            {
+              "name": {
+                "value": "node-lessons"
+              }
+            },
+            {
+              "name": {
+                "value": "uBlock"
+              }
+            },
+            {
+              "name": {
+                "value": "hyperapp"
+              }
+            },
+            {
+              "name": {
+                "value": "medium-editor"
+              }
+            },
+            {
+              "name": {
+                "value": "highlight.js"
+              }
+            },
+            {
+              "name": {
+                "value": "vux"
+              }
+            },
+            {
+              "name": {
+                "value": "browserify"
+              }
+            },
+            {
+              "name": {
+                "value": "mustache.js"
+              }
+            },
+            {
+              "name": {
+                "value": "cocos2d-x"
+              }
+            },
+            {
+              "name": {
+                "value": "rxjs"
+              }
+            },
+            {
+              "name": {
+                "value": "grunt"
+              }
+            },
+            {
+              "name": {
+                "value": "mysql"
+              }
+            },
+            {
+              "name": {
+                "value": "ramda"
+              }
+            },
+            {
+              "name": {
+                "value": "localForage"
+              }
+            },
+            {
+              "name": {
+                "value": "prepack"
+              }
+            },
+            {
+              "name": {
+                "value": "amazeui"
+              }
+            },
+            {
+              "name": {
+                "value": "js-must-watch"
+              }
+            },
+            {
+              "name": {
+                "value": "stackedit"
+              }
+            },
+            {
+              "name": {
+                "value": "requirejs"
+              }
+            },
+            {
+              "name": {
+                "value": "html2canvas"
+              }
+            },
+            {
+              "name": {
+                "value": "wtfjs"
+              }
+            },
+            {
+              "name": {
+                "value": "swagger-ui"
+              }
+            },
+            {
+              "name": {
+                "value": "Snap.svg"
+              }
+            },
+            {
+              "name": {
+                "value": "store.js"
+              }
+            },
+            {
+              "name": {
+                "value": "eslint"
+              }
+            },
+            {
+              "name": {
+                "value": "mean"
+              }
+            },
+            {
+              "name": {
+                "value": "blessed-contrib"
+              }
+            },
+            {
+              "name": {
+                "value": "plyr"
+              }
+            },
+            {
+              "name": {
+                "value": "charts"
+              }
+            },
+            {
+              "name": {
+                "value": "relay"
+              }
+            },
+            {
+              "name": {
+                "value": "jstips"
+              }
+            },
+            {
+              "name": {
+                "value": "bootstrap-datepicker"
+              }
+            },
+            {
+              "name": {
+                "value": "draggable"
+              }
+            },
+            {
+              "name": {
+                "value": "chartist-js"
+              }
+            },
+            {
+              "name": {
+                "value": "jsPDF"
+              }
+            },
+            {
+              "name": {
+                "value": "N-blog"
+              }
+            },
+            {
+              "name": {
+                "value": "WebViewJavascriptBridge"
+              }
+            },
+            {
+              "name": {
+                "value": "framework"
+              }
+            },
+            {
+              "name": {
+                "value": "uppy"
+              }
+            },
+            {
+              "name": {
+                "value": "JSVerbalExpressions"
+              }
+            },
+            {
+              "name": {
+                "value": "front-end-guide"
+              }
+            },
+            {
+              "name": {
+                "value": "pouchdb"
+              }
+            },
+            {
+              "name": {
+                "value": "smartcrop.js"
+              }
+            },
+            {
+              "name": {
+                "value": "jquery-ui"
+              }
+            },
+            {
+              "name": {
+                "value": "es6-cheatsheet"
+              }
+            },
+            {
+              "name": {
+                "value": "JSPatch"
+              }
+            },
+            {
+              "name": {
+                "value": "history.js"
+              }
+            },
+            {
+              "name": {
+                "value": "validator.js"
+              }
+            },
+            {
+              "name": {
+                "value": "gotty"
+              }
+            },
+            {
+              "name": {
+                "value": "vivus"
+              }
+            },
+            {
+              "name": {
+                "value": "graphql-js"
+              }
+            },
+            {
+              "name": {
+                "value": "carbon"
+              }
+            },
+            {
+              "name": {
+                "value": "fabric.js"
+              }
+            },
+            {
+              "name": {
+                "value": "You-Dont-Need-JavaScript"
+              }
+            },
+            {
+              "name": {
+                "value": "wp-calypso"
+              }
+            },
+            {
+              "name": {
+                "value": "vuetify"
+              }
+            },
+            {
+              "name": {
+                "value": "js-xlsx"
+              }
+            },
+            {
+              "name": {
+                "value": "pell"
+              }
+            },
+            {
+              "name": {
+                "value": "howler.js"
+              }
+            },
+            {
+              "name": {
+                "value": "date-fns"
+              }
+            },
+            {
+              "name": {
+                "value": "handsontable"
+              }
+            },
+            {
+              "name": {
+                "value": "angular-starter"
+              }
+            },
+            {
+              "name": {
+                "value": "raphael"
+              }
+            },
+            {
+              "name": {
+                "value": "jsdom"
+              }
+            },
+            {
+              "name": {
+                "value": "ScrollMagic"
+              }
+            },
+            {
+              "name": {
+                "value": "card"
+              }
+            },
+            {
+              "name": {
+                "value": "karma"
+              }
+            },
+            {
+              "name": {
+                "value": "spellbook-of-modern-webdev"
+              }
+            },
+            {
+              "name": {
+                "value": "best-resume-ever"
+              }
+            },
+            {
+              "name": {
+                "value": "vue-router"
+              }
+            },
+            {
+              "name": {
+                "value": "svgo"
+              }
+            },
+            {
+              "name": {
+                "value": "create-react-native-app"
+              }
+            },
+            {
+              "name": {
+                "value": "paper.js"
+              }
+            },
+            {
+              "name": {
+                "value": "js-cookie"
+              }
+            },
+            {
+              "name": {
+                "value": "lerna"
+              }
+            },
+            {
+              "name": {
+                "value": "convnetjs"
+              }
+            },
+            {
+              "name": {
+                "value": "react-bits"
+              }
+            },
+            {
+              "name": {
+                "value": "johnny-five"
+              }
+            },
+            {
+              "name": {
+                "value": "list.js"
+              }
+            },
+            {
+              "name": {
+                "value": "feathers"
+              }
+            },
+            {
+              "name": {
+                "value": "knockout"
+              }
+            },
+            {
+              "name": {
+                "value": "WebFundamentals"
+              }
+            },
+            {
+              "name": {
+                "value": "mousetrap"
+              }
+            },
+            {
+              "name": {
+                "value": "falcor"
+              }
+            },
+            {
+              "name": {
+                "value": "chalk"
+              }
+            },
+            {
+              "name": {
+                "value": "jquery-validation"
+              }
+            },
+            {
+              "name": {
+                "value": "trix"
+              }
+            },
+            {
+              "name": {
+                "value": "NodeBB"
+              }
+            },
+            {
+              "name": {
+                "value": "homebridge"
+              }
+            },
+            {
+              "name": {
+                "value": "kap"
+              }
+            },
+            {
+              "name": {
+                "value": "mithril.js"
+              }
+            },
+            {
+              "name": {
+                "value": "TimelineJS"
+              }
+            },
+            {
+              "name": {
+                "value": "UglifyJS2"
+              }
+            },
+            {
+              "name": {
+                "value": "javascript-patterns"
+              }
+            },
+            {
+              "name": {
+                "value": "Parsley.js"
+              }
+            },
+            {
+              "name": {
+                "value": "cyclejs"
+              }
+            },
+            {
+              "name": {
+                "value": "ws"
+              }
+            },
+            {
+              "name": {
+                "value": "lazysizes"
+              }
+            },
+            {
+              "name": {
+                "value": "material-components-web"
+              }
+            },
+            {
+              "name": {
+                "value": "nedb"
+              }
+            },
+            {
+              "name": {
+                "value": "frontend-stuff"
+              }
+            },
+            {
+              "name": {
+                "value": "plotly.js"
+              }
+            },
+            {
+              "name": {
+                "value": "toastr"
+              }
+            },
+            {
+              "name": {
+                "value": "nightwatch"
+              }
+            },
+            {
+              "name": {
+                "value": "brain"
+              }
+            },
+            {
+              "name": {
+                "value": "sharp"
+              }
+            },
+            {
+              "name": {
+                "value": "Functional-Light-JS"
+              }
+            },
+            {
+              "name": {
+                "value": "jshint"
+              }
+            },
+            {
+              "name": {
+                "value": "reactide"
+              }
+            },
+            {
+              "name": {
+                "value": "sigma.js"
+              }
+            },
+            {
+              "name": {
+                "value": "vue-resource"
+              }
+            },
+            {
+              "name": {
+                "value": "connect"
+              }
+            },
+            {
+              "name": {
+                "value": "p5.js"
+              }
+            },
+            {
+              "name": {
+                "value": "UglifyJS"
+              }
+            },
+            {
+              "name": {
+                "value": "napajs"
+              }
+            },
+            {
+              "name": {
+                "value": "BrowserQuest"
+              }
+            },
+            {
+              "name": {
+                "value": "jsdoc"
+              }
+            },
+            {
+              "name": {
+                "value": "joi"
+              }
+            },
+            {
+              "name": {
+                "value": "ungit"
+              }
+            },
+            {
+              "name": {
+                "value": "shelljs"
+              }
+            },
+            {
+              "name": {
+                "value": "lowdb"
+              }
+            },
+            {
+              "name": {
+                "value": "uncss"
+              }
+            },
+            {
+              "name": {
+                "value": "classnames"
+              }
+            },
+            {
+              "name": {
+                "value": "remark"
+              }
+            },
+            {
+              "name": {
+                "value": "laverna"
+              }
+            },
+            {
+              "name": {
+                "value": "compromise"
+              }
+            },
+            {
+              "name": {
+                "value": "traceur-compiler"
+              }
+            },
+            {
+              "name": {
+                "value": "fine-uploader"
+              }
+            },
+            {
+              "name": {
+                "value": "driver.js"
+              }
+            },
+            {
+              "name": {
+                "value": "highcharts"
+              }
+            },
+            {
+              "name": {
+                "value": "bokeh"
+              }
+            },
+            {
+              "name": {
+                "value": "protractor"
+              }
+            },
+            {
+              "name": {
+                "value": "GreenSock-JS"
+              }
+            },
+            {
+              "name": {
+                "value": "JSON-js"
+              }
+            },
+            {
+              "name": {
+                "value": "push.js"
+              }
+            },
+            {
+              "name": {
+                "value": "oni"
+              }
+            },
+            {
+              "name": {
+                "value": "tfjs-core"
+              }
+            },
+            {
+              "name": {
+                "value": "imagesloaded"
+              }
+            },
+            {
+              "name": {
+                "value": "browser-laptop"
+              }
+            },
+            {
+              "name": {
+                "value": "JavaScript30"
+              }
+            },
+            {
+              "name": {
+                "value": "react-intl"
+              }
+            },
+            {
+              "name": {
+                "value": "jquery_lazyload"
+              }
+            },
+            {
+              "name": {
+                "value": "backbone.marionette"
+              }
+            },
+            {
+              "name": {
+                "value": "summernote"
+              }
+            },
+            {
+              "name": {
+                "value": "casperjs"
+              }
+            },
+            {
+              "name": {
+                "value": "slate"
+              }
+            },
+            {
+              "name": {
+                "value": "Docusaurus"
+              }
+            },
+            {
+              "name": {
+                "value": "interact.js"
+              }
+            },
+            {
+              "name": {
+                "value": "reaction"
+              }
+            },
+            {
+              "name": {
+                "value": "ChakraCore"
+              }
+            },
+            {
+              "name": {
+                "value": "js-the-right-way"
+              }
+            },
+            {
+              "name": {
+                "value": "project-based-learning"
+              }
+            },
+            {
+              "name": {
+                "value": "matter-js"
+              }
+            },
+            {
+              "name": {
+                "value": "dynamics.js"
+              }
+            },
+            {
+              "name": {
+                "value": "libphonenumber"
+              }
+            },
+            {
+              "name": {
+                "value": "EaselJS"
+              }
+            },
+            {
+              "name": {
+                "value": "horizon"
+              }
+            },
+            {
+              "name": {
+                "value": "knex"
+              }
+            },
+            {
+              "name": {
+                "value": "gopherjs"
+              }
+            },
+            {
+              "name": {
+                "value": "art-template"
+              }
+            },
+            {
+              "name": {
+                "value": "flight"
+              }
+            },
+            {
+              "name": {
+                "value": "markdown-js"
+              }
+            },
+            {
+              "name": {
+                "value": "sweetalert2"
+              }
+            },
+            {
+              "name": {
+                "value": "showdown"
+              }
+            },
+            {
+              "name": {
+                "value": "vis"
+              }
+            },
+            {
+              "name": {
+                "value": "color-thief"
+              }
+            },
+            {
+              "name": {
+                "value": "Babylon.js"
+              }
+            },
+            {
+              "name": {
+                "value": "zeroclipboard"
+              }
+            },
+            {
+              "name": {
+                "value": "timesheet.js"
+              }
+            },
+            {
+              "name": {
+                "value": "brunch"
+              }
+            },
+            {
+              "name": {
+                "value": "paperwork"
+              }
+            },
+            {
+              "name": {
+                "value": "ecma262"
+              }
+            },
+            {
+              "name": {
+                "value": "SlickGrid"
+              }
+            },
+            {
+              "name": {
+                "value": "progressbar.js"
+              }
+            },
+            {
+              "name": {
+                "value": "es5-shim"
+              }
+            },
+            {
+              "name": {
+                "value": "MagicMirror"
+              }
+            },
+            {
+              "name": {
+                "value": "keeweb"
+              }
+            },
+            {
+              "name": {
+                "value": "OnsenUI"
+              }
+            },
+            {
+              "name": {
+                "value": "rickshaw"
+              }
+            },
+            {
+              "name": {
+                "value": "thejsway"
+              }
+            },
+            {
+              "name": {
+                "value": "zulip"
+              }
+            },
+            {
+              "name": {
+                "value": "anypixel"
+              }
+            },
+            {
+              "name": {
+                "value": "codecombat"
+              }
+            },
+            {
+              "name": {
+                "value": "cdnjs"
+              }
+            },
+            {
+              "name": {
+                "value": "redux-devtools-extension"
+              }
+            },
+            {
+              "name": {
+                "value": "react-grid-layout"
+              }
+            },
+            {
+              "name": {
+                "value": "Numeral-js"
+              }
+            },
+            {
+              "name": {
+                "value": "marko"
+              }
+            },
+            {
+              "name": {
+                "value": "Snap.js"
+              }
+            },
+            {
+              "name": {
+                "value": "Pikaday"
+              }
+            },
+            {
+              "name": {
+                "value": "generator-angular-fullstack"
+              }
+            },
+            {
+              "name": {
+                "value": "tfjs"
+              }
+            },
+            {
+              "name": {
+                "value": "typed.js"
+              }
+            },
+            {
+              "name": {
+                "value": "debug"
+              }
+            },
+            {
+              "name": {
+                "value": "awesome-cheatsheets"
+              }
+            },
+            {
+              "name": {
+                "value": "core"
+              }
+            },
+            {
+              "name": {
+                "value": "notie"
+              }
+            },
+            {
+              "name": {
+                "value": "gpu.js"
+              }
+            },
+            {
+              "name": {
+                "value": "jimp"
+              }
+            },
+            {
+              "name": {
+                "value": "pencil"
+              }
+            },
+            {
+              "name": {
+                "value": "webamp"
+              }
+            },
+            {
+              "name": {
+                "value": "dillinger"
+              }
+            },
+            {
+              "name": {
+                "value": "bacon.js"
+              }
+            },
+            {
+              "name": {
+                "value": "Fuse"
+              }
+            },
+            {
+              "name": {
+                "value": "vue-material"
+              }
+            },
+            {
+              "name": {
+                "value": "perfect-scrollbar"
+              }
+            },
+            {
+              "name": {
+                "value": "habitica"
+              }
+            },
+            {
+              "name": {
+                "value": "noty"
+              }
+            },
+            {
+              "name": {
+                "value": "lovefield"
+              }
+            },
+            {
+              "name": {
+                "value": "javascript-in-one-pic"
+              }
+            },
+            {
+              "name": {
+                "value": "sinon"
+              }
+            },
+            {
+              "name": {
+                "value": "ccxt"
+              }
+            },
+            {
+              "name": {
+                "value": "quasar"
+              }
+            },
+            {
+              "name": {
+                "value": "mathjs"
+              }
+            },
+            {
+              "name": {
+                "value": "typeorm"
+              }
+            },
+            {
+              "name": {
+                "value": "You-Dont-Need-Lodash-Underscore"
+              }
+            },
+            {
+              "name": {
+                "value": "pdfmake"
+              }
+            },
+            {
+              "name": {
+                "value": "sockjs-client"
+              }
+            },
+            {
+              "name": {
+                "value": "awesomo"
+              }
+            },
+            {
+              "name": {
+                "value": "Metro-UI-CSS"
+              }
+            },
+            {
+              "name": {
+                "value": "node-uuid"
+              }
+            },
+            {
+              "name": {
+                "value": "svg.js"
+              }
+            },
+            {
+              "name": {
+                "value": "flot"
+              }
+            },
+            {
+              "name": {
+                "value": "sketch-measure"
+              }
+            },
+            {
+              "name": {
+                "value": "truffle"
+              }
+            },
+            {
+              "name": {
+                "value": "js-sequence-diagrams"
+              }
+            },
+            {
+              "name": {
+                "value": "arangodb"
+              }
+            },
+            {
+              "name": {
+                "value": "two.js"
+              }
+            },
+            {
+              "name": {
+                "value": "reason"
+              }
+            },
+            {
+              "name": {
+                "value": "stimulus"
+              }
+            },
+            {
+              "name": {
+                "value": "fuelux"
+              }
+            },
+            {
+              "name": {
+                "value": "js-beautify"
+              }
+            },
+            {
+              "name": {
+                "value": "tween.js"
+              }
+            },
+            {
+              "name": {
+                "value": "umd"
+              }
+            },
+            {
+              "name": {
+                "value": "Blog"
+              }
+            },
+            {
+              "name": {
+                "value": "fantasy-land"
+              }
+            },
+            {
+              "name": {
+                "value": "fingerprintjs2"
+              }
+            },
+            {
+              "name": {
+                "value": "NodeOS"
+              }
+            },
+            {
+              "name": {
+                "value": "chai"
+              }
+            },
+            {
+              "name": {
+                "value": "PapaParse"
+              }
+            },
+            {
+              "name": {
+                "value": "must-watch-javascript"
+              }
+            },
+            {
+              "name": {
+                "value": "computer-science-in-javascript"
+              }
+            },
+            {
+              "name": {
+                "value": "nest"
+              }
+            },
+            {
+              "name": {
+                "value": "MathJax"
+              }
+            },
+            {
+              "name": {
+                "value": "URI.js"
+              }
+            },
+            {
+              "name": {
+                "value": "OpenRefine"
+              }
+            },
+            {
+              "name": {
+                "value": "tinymce"
+              }
+            },
+            {
+              "name": {
+                "value": "postcss-cssnext"
+              }
+            },
+            {
+              "name": {
+                "value": "director"
+              }
+            },
+            {
+              "name": {
+                "value": "node-jscs"
+              }
+            },
+            {
+              "name": {
+                "value": "snabbt.js"
+              }
+            },
+            {
+              "name": {
+                "value": "editor.md"
+              }
+            },
+            {
+              "name": {
+                "value": "ajenti"
+              }
+            },
+            {
+              "name": {
+                "value": "ui-grid"
+              }
+            },
+            {
+              "name": {
+                "value": "clmtrackr"
+              }
+            },
+            {
+              "name": {
+                "value": "chroma.js"
+              }
+            },
+            {
+              "name": {
+                "value": "electron-packager"
+              }
+            },
+            {
+              "name": {
+                "value": "Lettering.js"
+              }
+            },
+            {
+              "name": {
+                "value": "web3.js"
+              }
+            },
+            {
+              "name": {
+                "value": "sjcl"
+              }
+            },
+            {
+              "name": {
+                "value": "stats.js"
+              }
+            },
+            {
+              "name": {
+                "value": "fkill-cli"
+              }
+            },
+            {
+              "name": {
+                "value": "javascript-state-machine"
+              }
+            },
+            {
+              "name": {
+                "value": "qrcodejs"
+              }
+            },
+            {
+              "name": {
+                "value": "netlify-cms"
+              }
+            },
+            {
+              "name": {
+                "value": "webtorrent-desktop"
+              }
+            },
+            {
+              "name": {
+                "value": "simplemde-markdown-editor"
+              }
+            },
+            {
+              "name": {
+                "value": "blog"
+              }
+            },
+            {
+              "name": {
+                "value": "webogram"
+              }
+            },
+            {
+              "name": {
+                "value": "bookshelf"
+              }
+            },
+            {
+              "name": {
+                "value": "plupload"
+              }
+            },
+            {
+              "name": {
+                "value": "brain.js"
+              }
+            },
+            {
+              "name": {
+                "value": "tinycon"
+              }
+            },
+            {
+              "name": {
+                "value": "PHP_CodeSniffer"
+              }
+            },
+            {
+              "name": {
+                "value": "flowchart.js"
+              }
+            },
+            {
+              "name": {
+                "value": "chartkick"
+              }
+            },
+            {
+              "name": {
+                "value": "jstutorial"
+              }
+            },
+            {
+              "name": {
+                "value": "workbox"
+              }
+            },
+            {
+              "name": {
+                "value": "syntaxhighlighter"
+              }
+            },
+            {
+              "name": {
+                "value": "ant-design-mobile"
+              }
+            },
+            {
+              "name": {
+                "value": "purescript"
+              }
+            },
+            {
+              "name": {
+                "value": "animateplus"
+              }
+            },
+            {
+              "name": {
+                "value": "cubism"
+              }
+            },
+            {
+              "name": {
+                "value": "socketcluster"
+              }
+            },
+            {
+              "name": {
+                "value": "mal"
+              }
+            },
+            {
+              "name": {
+                "value": "JsBridge"
+              }
+            },
+            {
+              "name": {
+                "value": "nexe"
+              }
+            },
+            {
+              "name": {
+                "value": "ale"
+              }
+            },
+            {
+              "name": {
+                "value": "evil-icons"
+              }
+            },
+            {
+              "name": {
+                "value": "form"
+              }
+            },
+            {
+              "name": {
+                "value": "react-sortable-hoc"
+              }
+            },
+            {
+              "name": {
+                "value": "helmet"
+              }
+            },
+            {
+              "name": {
+                "value": "sw-precache"
+              }
+            },
+            {
+              "name": {
+                "value": "seamless-immutable"
+              }
+            },
+            {
+              "name": {
+                "value": "strapi"
+              }
+            },
+            {
+              "name": {
+                "value": "prerender"
+              }
+            },
+            {
+              "name": {
+                "value": "esprima"
+              }
+            },
+            {
+              "name": {
+                "value": "awesome-javascript-cn"
+              }
+            },
+            {
+              "name": {
+                "value": "alertify.js"
+              }
+            },
+            {
+              "name": {
+                "value": "ES6-for-humans"
+              }
+            },
+            {
+              "name": {
+                "value": "Tone.js"
+              }
+            },
+            {
+              "name": {
+                "value": "bootbox"
+              }
+            },
+            {
+              "name": {
+                "value": "angular-translate"
+              }
+            },
+            {
+              "name": {
+                "value": "EpicEditor"
+              }
+            },
+            {
+              "name": {
+                "value": "wangEditor"
+              }
+            },
+            {
+              "name": {
+                "value": "reactstrap"
+              }
+            },
+            {
+              "name": {
+                "value": "v86"
+              }
+            },
+            {
+              "name": {
+                "value": "textures"
+              }
+            },
+            {
+              "name": {
+                "value": "retinajs"
+              }
+            },
+            {
+              "name": {
+                "value": "move.js"
+              }
+            },
+            {
+              "name": {
+                "value": "moon"
+              }
+            },
+            {
+              "name": {
+                "value": "proposals"
+              }
+            },
+            {
+              "name": {
+                "value": "understandinges6"
+              }
+            },
+            {
+              "name": {
+                "value": "heatmap.js"
+              }
+            },
+            {
+              "name": {
+                "value": "lebab"
+              }
+            },
+            {
+              "name": {
+                "value": "node-style-guide"
+              }
+            },
+            {
+              "name": {
+                "value": "vim.js"
+              }
+            },
+            {
+              "name": {
+                "value": "unslider"
+              }
+            },
+            {
+              "name": {
+                "value": "js-code-to-svg-flowchart"
+              }
+            },
+            {
+              "name": {
+                "value": "hello.js"
+              }
+            },
+            {
+              "name": {
+                "value": "Content-generator-sketch-plugin"
+              }
+            },
+            {
+              "name": {
+                "value": "OpenSC2K"
+              }
+            },
+            {
+              "name": {
+                "value": "protobuf.js"
+              }
+            },
+            {
+              "name": {
+                "value": "sql.js"
+              }
+            },
+            {
+              "name": {
+                "value": "OS.js"
+              }
+            },
+            {
+              "name": {
+                "value": "noVNC"
+              }
+            },
+            {
+              "name": {
+                "value": "es6"
+              }
+            },
+            {
+              "name": {
+                "value": "plato"
+              }
+            },
+            {
+              "name": {
+                "value": "Medium.js"
+              }
+            },
+            {
+              "name": {
+                "value": "emmet-vim"
+              }
+            },
+            {
+              "name": {
+                "value": "cytoscape.js"
+              }
+            },
+            {
+              "name": {
+                "value": "server"
+              }
+            },
+            {
+              "name": {
+                "value": "hospitalrun-frontend"
+              }
+            },
+            {
+              "name": {
+                "value": "intercooler-js"
+              }
+            },
+            {
+              "name": {
+                "value": "shipit"
+              }
+            },
+            {
+              "name": {
+                "value": "WebSlides"
+              }
+            },
+            {
+              "name": {
+                "value": "warriorjs"
+              }
+            },
+            {
+              "name": {
+                "value": "closure-compiler"
+              }
+            },
+            {
+              "name": {
+                "value": "clappr"
+              }
+            },
+            {
+              "name": {
+                "value": "soundnode-app"
+              }
+            },
+            {
+              "name": {
+                "value": "hypernova"
+              }
+            },
+            {
+              "name": {
+                "value": "sweet-core"
+              }
+            },
+            {
+              "name": {
+                "value": "SoundManager2"
+              }
+            },
+            {
+              "name": {
+                "value": "neurojs"
+              }
+            },
+            {
+              "name": {
+                "value": "in-view"
+              }
+            },
+            {
+              "name": {
+                "value": "lost"
+              }
+            },
+            {
+              "name": {
+                "value": "crypto-js"
+              }
+            },
+            {
+              "name": {
+                "value": "concurrent-ruby"
+              }
+            },
+            {
+              "name": {
+                "value": "aws-sdk-js"
+              }
+            },
+            {
+              "name": {
+                "value": "LokiJS"
+              }
+            },
+            {
+              "name": {
+                "value": "lila"
+              }
+            },
+            {
+              "name": {
+                "value": "aphrodite"
+              }
+            },
+            {
+              "name": {
+                "value": "node-fs-extra"
+              }
+            },
+            {
+              "name": {
+                "value": "screenfull.js"
+              }
+            },
+            {
+              "name": {
+                "value": "vant"
+              }
+            },
+            {
+              "name": {
+                "value": "flexibility"
+              }
+            },
+            {
+              "name": {
+                "value": "intern"
+              }
+            },
+            {
+              "name": {
+                "value": "keras-js"
+              }
+            },
+            {
+              "name": {
+                "value": "mui"
+              }
+            },
+            {
+              "name": {
+                "value": "eslint-plugin-react"
+              }
+            },
+            {
+              "name": {
+                "value": "webdriverio"
+              }
+            },
+            {
+              "name": {
+                "value": "front-end-handbook-2017"
+              }
+            },
+            {
+              "name": {
+                "value": "jszip"
+              }
+            },
+            {
+              "name": {
+                "value": "lightgallery.js"
+              }
+            },
+            {
+              "name": {
+                "value": "pdfkit"
+              }
+            },
+            {
+              "name": {
+                "value": "history"
+              }
+            },
+            {
+              "name": {
+                "value": "NeteaseCloudMusicApi"
+              }
+            },
+            {
+              "name": {
+                "value": "doT"
+              }
+            },
+            {
+              "name": {
+                "value": "nanoid"
+              }
+            },
+            {
+              "name": {
+                "value": "ejs"
+              }
+            },
+            {
+              "name": {
+                "value": "jswiki"
+              }
+            },
+            {
+              "name": {
+                "value": "antlr4"
+              }
+            },
+            {
+              "name": {
+                "value": "Dollar"
+              }
+            },
+            {
+              "name": {
+                "value": "hls.js"
+              }
+            },
+            {
+              "name": {
+                "value": "ag-grid"
+              }
+            },
+            {
+              "name": {
+                "value": "json-framework"
+              }
+            },
+            {
+              "name": {
+                "value": "javascript-algorithms"
+              }
+            },
+            {
+              "name": {
+                "value": "text-mask"
+              }
             }
           ]
         }
@@ -537,6 +2551,8 @@
           ],
           "samples": [
             "update me on {repo_name}",
+            "give me updates on {repo_name}",
+            "give me an update on {repo_name}",
             "what's the latest on {repo_name}",
             "what's new with {repo_name}",
             "tell me about {repo_name}",

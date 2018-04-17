@@ -5,9 +5,9 @@
         "en-US": {
           "summary": "Communicate with GitHub via Alexa.",
           "examplePhrases": [
-            "Alexa ask github for updates",
-            "Alexa ask github for updates on my favorites",
-            "Alexa ask github for the latest on node.js"
+            "Alexa ask GitHub Voice for updates",
+            "Alexa ask GitHub Voice for updates on my favorites",
+            "Alexa ask GitHub Voice for the latest on node.js"
           ],
           "name": "GitHub Voice",
           "description": "Communicate with GitHub via Alexa."
