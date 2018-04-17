@@ -23,7 +23,8 @@ const handlers = {
   'RepoUpdates': function() {
     var self = this;
 
-    var repoKey = this.event.request.intent.slots.repo_name.value;
+    var repoKey = util.parseSlotValue(this.event.request.intent.slots.repo_name);
+
     var repo = repos[repoKey];
 
     if (!repo) {
@@ -66,7 +67,7 @@ const handlers = {
   },
 
   'AddFavorite': function() {
-    var repoKey = this.event.request.intent.slots.repo_name.value;
+    var repoKey = util.parseSlotValue(this.event.request.intent.slots.repo_name);
     var repo = repos[repoKey];
 
     if (!repo) {
@@ -89,7 +90,7 @@ const handlers = {
   },
 
   'RemoveFavorite': function() {
-    var repoKey = this.event.request.intent.slots.repo_name.value;
+    var repoKey = util.parseSlotValue(this.event.request.intent.slots.repo_name);
     var repo = repos[repoKey];
 
     if (!this.attributes.favorites) {
