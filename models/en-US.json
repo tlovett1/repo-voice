@@ -57,7 +57,7 @@
             },
             {
               "name": {
-                "value": "freeCodeCamp"
+                "value": "freecodecamp"
               }
             },
             {
@@ -67,7 +67,7 @@
             },
             {
               "name": {
-                "value": "You-Dont-Know-JS"
+                "value": "you-dont-know-js"
               }
             },
             {
@@ -127,7 +127,7 @@
             },
             {
               "name": {
-                "value": "Chart.js"
+                "value": "chart.js"
               }
             },
             {
@@ -147,7 +147,7 @@
             },
             {
               "name": {
-                "value": "TypeScript"
+                "value": "typescript"
               }
             },
             {
@@ -162,7 +162,7 @@
             },
             {
               "name": {
-                "value": "free-programming-books-zh_CN"
+                "value": "free-programming-books-zh_cn"
               }
             },
             {
@@ -182,7 +182,7 @@
             },
             {
               "name": {
-                "value": "Front-End-Checklist"
+                "value": "front-end-checklist"
               }
             },
             {
@@ -197,7 +197,7 @@
             },
             {
               "name": {
-                "value": "Ghost"
+                "value": "ghost"
               }
             },
             {
@@ -242,7 +242,7 @@
             },
             {
               "name": {
-                "value": "fullPage.js"
+                "value": "fullpage.js"
               }
             },
             {
@@ -262,7 +262,7 @@
             },
             {
               "name": {
-                "value": "Modernizr"
+                "value": "modernizr"
               }
             },
             {
@@ -297,7 +297,7 @@
             },
             {
               "name": {
-                "value": "Leaflet"
+                "value": "leaflet"
               }
             },
             {
@@ -318,11 +318,6 @@
             {
               "name": {
                 "value": "30-seconds-of-code"
-              }
-            },
-            {
-              "name": {
-                "value": "RxJS"
               }
             },
             {
@@ -382,7 +377,7 @@
             },
             {
               "name": {
-                "value": "Rocket.Chat"
+                "value": "rocket.chat"
               }
             },
             {
@@ -417,7 +412,7 @@
             },
             {
               "name": {
-                "value": "PhotoSwipe"
+                "value": "photoswipe"
               }
             },
             {
@@ -577,7 +572,7 @@
             },
             {
               "name": {
-                "value": "NativeScript"
+                "value": "nativescript"
               }
             },
             {
@@ -587,12 +582,12 @@
             },
             {
               "name": {
-                "value": "You-Dont-Need-jQuery"
+                "value": "you-dont-need-jquery"
               }
             },
             {
               "name": {
-                "value": "Sortable"
+                "value": "sortable"
               }
             },
             {
@@ -642,7 +637,7 @@
             },
             {
               "name": {
-                "value": "uBlock"
+                "value": "ublock"
               }
             },
             {
@@ -702,7 +697,7 @@
             },
             {
               "name": {
-                "value": "localForage"
+                "value": "localforage"
               }
             },
             {
@@ -747,7 +742,7 @@
             },
             {
               "name": {
-                "value": "Snap.svg"
+                "value": "snap.svg"
               }
             },
             {
@@ -807,17 +802,17 @@
             },
             {
               "name": {
-                "value": "jsPDF"
+                "value": "jspdf"
               }
             },
             {
               "name": {
-                "value": "N-blog"
+                "value": "n-blog"
               }
             },
             {
               "name": {
-                "value": "WebViewJavascriptBridge"
+                "value": "webviewjavascriptbridge"
               }
             },
             {
@@ -832,7 +827,7 @@
             },
             {
               "name": {
-                "value": "JSVerbalExpressions"
+                "value": "jsverbalexpressions"
               }
             },
             {
@@ -862,7 +857,7 @@
             },
             {
               "name": {
-                "value": "JSPatch"
+                "value": "jspatch"
               }
             },
             {
@@ -902,7 +897,7 @@
             },
             {
               "name": {
-                "value": "You-Dont-Need-JavaScript"
+                "value": "you-dont-need-javascript"
               }
             },
             {
@@ -957,7 +952,7 @@
             },
             {
               "name": {
-                "value": "ScrollMagic"
+                "value": "scrollmagic"
               }
             },
             {
@@ -1042,7 +1037,7 @@
             },
             {
               "name": {
-                "value": "WebFundamentals"
+                "value": "webfundamentals"
               }
             },
             {
@@ -1072,7 +1067,7 @@
             },
             {
               "name": {
-                "value": "NodeBB"
+                "value": "nodebb"
               }
             },
             {
@@ -1092,12 +1087,12 @@
             },
             {
               "name": {
-                "value": "TimelineJS"
+                "value": "timelinejs"
               }
             },
             {
               "name": {
-                "value": "UglifyJS2"
+                "value": "uglifyjs2"
               }
             },
             {
@@ -1107,7 +1102,7 @@
             },
             {
               "name": {
-                "value": "Parsley.js"
+                "value": "parsley.js"
               }
             },
             {
@@ -1167,7 +1162,7 @@
             },
             {
               "name": {
-                "value": "Functional-Light-JS"
+                "value": "functional-light-js"
               }
             },
             {
@@ -1202,7 +1197,7 @@
             },
             {
               "name": {
-                "value": "UglifyJS"
+                "value": "uglifyjs"
               }
             },
             {
@@ -1212,7 +1207,7 @@
             },
             {
               "name": {
-                "value": "BrowserQuest"
+                "value": "browserquest"
               }
             },
             {
@@ -1297,12 +1292,12 @@
             },
             {
               "name": {
-                "value": "GreenSock-JS"
+                "value": "greensock-js"
               }
             },
             {
               "name": {
-                "value": "JSON-js"
+                "value": "json-js"
               }
             },
             {
@@ -1332,7 +1327,7 @@
             },
             {
               "name": {
-                "value": "JavaScript30"
+                "value": "javascript30"
               }
             },
             {
@@ -1367,7 +1362,7 @@
             },
             {
               "name": {
-                "value": "Docusaurus"
+                "value": "docusaurus"
               }
             },
             {
@@ -1382,7 +1377,7 @@
             },
             {
               "name": {
-                "value": "ChakraCore"
+                "value": "chakracore"
               }
             },
             {
@@ -1412,7 +1407,7 @@
             },
             {
               "name": {
-                "value": "EaselJS"
+                "value": "easeljs"
               }
             },
             {
@@ -1467,7 +1462,7 @@
             },
             {
               "name": {
-                "value": "Babylon.js"
+                "value": "babylon.js"
               }
             },
             {
@@ -1497,7 +1492,7 @@
             },
             {
               "name": {
-                "value": "SlickGrid"
+                "value": "slickgrid"
               }
             },
             {
@@ -1512,7 +1507,7 @@
             },
             {
               "name": {
-                "value": "MagicMirror"
+                "value": "magicmirror"
               }
             },
             {
@@ -1522,7 +1517,7 @@
             },
             {
               "name": {
-                "value": "OnsenUI"
+                "value": "onsenui"
               }
             },
             {
@@ -1567,7 +1562,7 @@
             },
             {
               "name": {
-                "value": "Numeral-js"
+                "value": "numeral-js"
               }
             },
             {
@@ -1577,12 +1572,12 @@
             },
             {
               "name": {
-                "value": "Snap.js"
+                "value": "snap.js"
               }
             },
             {
               "name": {
-                "value": "Pikaday"
+                "value": "pikaday"
               }
             },
             {
@@ -1652,7 +1647,7 @@
             },
             {
               "name": {
-                "value": "Fuse"
+                "value": "fuse"
               }
             },
             {
@@ -1712,7 +1707,7 @@
             },
             {
               "name": {
-                "value": "You-Dont-Need-Lodash-Underscore"
+                "value": "you-dont-need-lodash-underscore"
               }
             },
             {
@@ -1732,7 +1727,7 @@
             },
             {
               "name": {
-                "value": "Metro-UI-CSS"
+                "value": "metro-ui-css"
               }
             },
             {
@@ -1807,7 +1802,7 @@
             },
             {
               "name": {
-                "value": "Blog"
+                "value": "blog"
               }
             },
             {
@@ -1822,7 +1817,7 @@
             },
             {
               "name": {
-                "value": "NodeOS"
+                "value": "nodeos"
               }
             },
             {
@@ -1832,7 +1827,7 @@
             },
             {
               "name": {
-                "value": "PapaParse"
+                "value": "papaparse"
               }
             },
             {
@@ -1852,17 +1847,17 @@
             },
             {
               "name": {
-                "value": "MathJax"
+                "value": "mathjax"
               }
             },
             {
               "name": {
-                "value": "URI.js"
+                "value": "uri.js"
               }
             },
             {
               "name": {
-                "value": "OpenRefine"
+                "value": "openrefine"
               }
             },
             {
@@ -1922,7 +1917,7 @@
             },
             {
               "name": {
-                "value": "Lettering.js"
+                "value": "lettering.js"
               }
             },
             {
@@ -1972,11 +1967,6 @@
             },
             {
               "name": {
-                "value": "blog"
-              }
-            },
-            {
-              "name": {
                 "value": "webogram"
               }
             },
@@ -2002,7 +1992,7 @@
             },
             {
               "name": {
-                "value": "PHP_CodeSniffer"
+                "value": "php_codesniffer"
               }
             },
             {
@@ -2062,7 +2052,7 @@
             },
             {
               "name": {
-                "value": "JsBridge"
+                "value": "jsbridge"
               }
             },
             {
@@ -2132,12 +2122,12 @@
             },
             {
               "name": {
-                "value": "ES6-for-humans"
+                "value": "es6-for-humans"
               }
             },
             {
               "name": {
-                "value": "Tone.js"
+                "value": "tone.js"
               }
             },
             {
@@ -2152,12 +2142,12 @@
             },
             {
               "name": {
-                "value": "EpicEditor"
+                "value": "epiceditor"
               }
             },
             {
               "name": {
-                "value": "wangEditor"
+                "value": "wangeditor"
               }
             },
             {
@@ -2237,12 +2227,12 @@
             },
             {
               "name": {
-                "value": "Content-generator-sketch-plugin"
+                "value": "content-generator-sketch-plugin"
               }
             },
             {
               "name": {
-                "value": "OpenSC2K"
+                "value": "opensc2k"
               }
             },
             {
@@ -2257,12 +2247,12 @@
             },
             {
               "name": {
-                "value": "OS.js"
+                "value": "os.js"
               }
             },
             {
               "name": {
-                "value": "noVNC"
+                "value": "novnc"
               }
             },
             {
@@ -2277,7 +2267,7 @@
             },
             {
               "name": {
-                "value": "Medium.js"
+                "value": "medium.js"
               }
             },
             {
@@ -2312,7 +2302,7 @@
             },
             {
               "name": {
-                "value": "WebSlides"
+                "value": "webslides"
               }
             },
             {
@@ -2347,7 +2337,7 @@
             },
             {
               "name": {
-                "value": "SoundManager2"
+                "value": "soundmanager2"
               }
             },
             {
@@ -2382,7 +2372,7 @@
             },
             {
               "name": {
-                "value": "LokiJS"
+                "value": "lokijs"
               }
             },
             {
@@ -2467,12 +2457,12 @@
             },
             {
               "name": {
-                "value": "NeteaseCloudMusicApi"
+                "value": "neteasecloudmusicapi"
               }
             },
             {
               "name": {
-                "value": "doT"
+                "value": "dot"
               }
             },
             {
@@ -2497,7 +2487,7 @@
             },
             {
               "name": {
-                "value": "Dollar"
+                "value": "dollar"
               }
             },
             {

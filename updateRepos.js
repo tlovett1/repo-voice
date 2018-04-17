@@ -37,13 +37,15 @@ Promise.all(pagePromises).then(function(results) {
 
   results.forEach(function(json) {
     json.items.forEach(function(repo) {
-      if (!repos[repo.name]) {
-        repos[repo.name] = {};
+      var name = repo.name.toLowerCase();
+
+      if (!repos[name]) {
+        repos[name] = {};
       }
 
-      repos[repo.name].owner = repo.owner.login;
-      repos[repo.name].name = repo.name;
-      repos[repo.name].niceName = repo.name.replace(/(\-|_)/g, ' ');
+      repos[name].owner = repo.owner.login;
+      repos[name].name = name;
+      repos[name].niceName = name.replace(/(\-|_)/g, ' ');
     });
   });
 
