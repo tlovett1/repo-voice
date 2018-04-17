@@ -53,6 +53,7 @@ Promise.all(pagePromises).then(function(results) {
     var repo = repos[repoKey];
 
     slotsByKey[repo.name] = {
+      id: repo.name,
       name: {
         value: repo.name
       }
