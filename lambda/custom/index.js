@@ -159,7 +159,7 @@ const handlers = {
     console.log(this.attributes.favorites);
 
     if (!this.attributes.favorites || !Object.keys(this.attributes.favorites).length) {
-      this.response.speak("You currently have no favorites. Tell Alexa to add a favorite.");
+      this.response.speak("You currently have no favorites. Tell repo voice to add a favorite.");
       this.emit(':responseReady');
       return;
     }
