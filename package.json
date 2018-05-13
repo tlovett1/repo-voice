@@ -2,7 +2,8 @@
   "name": "alexa-github-wrapper",
   "scripts": {
     "setup": "ask setup",
-    "deploy": "ask deploy"
+    "deploy": "ask deploy",
+    "update-repos": "node updateRepos.js"
   },
   "dependencies": {
     "lodash": "^4.17.5",

@@ -94,7 +94,7 @@
     "niceName": "html5 boilerplate"
   },
   "redux": {
-    "owner": "reactjs",
+    "owner": "reduxjs",
     "name": "redux",
     "niceName": "redux"
   },
@@ -884,7 +884,7 @@
     "niceName": "carbon"
   },
   "fabric.js": {
-    "owner": "kangax",
+    "owner": "fabricjs",
     "name": "fabric.js",
     "niceName": "fabric.js"
   },
@@ -2507,5 +2507,35 @@
     "owner": "text-mask",
     "name": "text-mask",
     "niceName": "text mask"
+  },
+  "flatpickr": {
+    "owner": "flatpickr",
+    "name": "flatpickr",
+    "niceName": "flatpickr"
+  },
+  "daterangepicker": {
+    "owner": "dangrossman",
+    "name": "daterangepicker",
+    "niceName": "daterangepicker"
+  },
+  "lunr.js": {
+    "owner": "olivernn",
+    "name": "lunr.js",
+    "niceName": "lunr.js"
+  },
+  "tui.calendar": {
+    "owner": "nhnent",
+    "name": "tui.calendar",
+    "niceName": "tui.calendar"
+  },
+  "graal": {
+    "owner": "oracle",
+    "name": "graal",
+    "niceName": "graal"
+  },
+  "razzle": {
+    "owner": "jaredpalmer",
+    "name": "razzle",
+    "niceName": "razzle"
   }
 }

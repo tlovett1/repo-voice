@@ -3014,6 +3014,42 @@
               "name": {
                 "value": "text-mask"
               }
+            },
+            {
+              "id": "flatpickr",
+              "name": {
+                "value": "flatpickr"
+              }
+            },
+            {
+              "id": "daterangepicker",
+              "name": {
+                "value": "daterangepicker"
+              }
+            },
+            {
+              "id": "lunr.js",
+              "name": {
+                "value": "lunr.js"
+              }
+            },
+            {
+              "id": "tui.calendar",
+              "name": {
+                "value": "tui.calendar"
+              }
+            },
+            {
+              "id": "graal",
+              "name": {
+                "value": "graal"
+              }
+            },
+            {
+              "id": "razzle",
+              "name": {
+                "value": "razzle"
+              }
             }
           ]
         }
