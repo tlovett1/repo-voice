@@ -16,11 +16,15 @@ exports.handler = function(event, context) {
 
 const handlers = {
   'LaunchRequest': function() {
+    console.log('LaunchRequest');
+
     this.response.speak("Welcome to GitHub Voice. Say give me updates on node or update me on my favorites.");
     this.emit(':responseReady');
   },
 
   'RepoUpdates': function() {
+    console.log('RepoUpdates');
+
     var self = this;
 
     var repoKey = util.parseSlotValue(this.event.request.intent.slots.repo_name);
@@ -50,7 +54,11 @@ const handlers = {
   },
 
   'GetFavorites': function() {
-    if (!this.attributes.favorites) {
+    console.log('GetFavorites');
+
+    console.log(this.attributes.favorites);
+
+    if (!this.attributes.favorites || !Object.keys(this.attributes.favorites).length) {
       this.response.speak("You currently have no favorites. Tell alexa add favorite to add one.");
       this.emit(':responseReady');
       return;
@@ -67,6 +75,10 @@ const handlers = {
   },
 
   'AddFavorite': function() {
+    console.log('AddFavorite');
+
+    console.log(this.attributes.favorites);
+
     var repoKey = util.parseSlotValue(this.event.request.intent.slots.repo_name);
     var repo = repos[repoKey];
 
@@ -90,10 +102,14 @@ const handlers = {
   },
 
   'RemoveFavorite': function() {
+    console.log('RemoveFavorite');
+
+    console.log(this.attributes.favorites);
+
     var repoKey = util.parseSlotValue(this.event.request.intent.slots.repo_name);
     var repo = repos[repoKey];
 
-    if (!this.attributes.favorites) {
+    if (!this.attributes.favorites || !Object.keys(this.attributes.favorites).length) {
       this.response.speak("You currently have no favorites.");
       this.emit(':responseReady');
       return;
@@ -117,7 +133,11 @@ const handlers = {
   },
 
   'RemoveAllFavorites': function() {
-    if (!this.attributes.favorites) {
+    console.log('RemoveAllFavorites');
+
+    console.log(this.attributes.favorites);
+
+    if (!this.attributes.favorites || !Object.keys(this.attributes.favorites).length) {
       this.response.speak("You currently have no favorites.");
       this.emit(':responseReady');
       return;
@@ -131,7 +151,11 @@ const handlers = {
   },
 
   'FavoriteUpdates': function() {
-    if (!this.attributes.favorites) {
+    console.log('FavoriteUpdates');
+
+    console.log(this.attributes.favorites);
+
+    if (!this.attributes.favorites || !Object.keys(this.attributes.favorites).length) {
       this.response.speak("You currently have no favorites. Tell Alexa to add a favorite.");
       this.emit(':responseReady');
       return;
