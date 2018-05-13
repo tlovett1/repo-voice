@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "github voice",
+      "invocationName": "repo voice",
       "types": [
         {
           "name": "REPO",

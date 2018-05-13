@@ -16,7 +16,7 @@ for (var page = 1; page <= numPages; page++) {
       uri: 'https://api.github.com/search/repositories?q=javascript&sort=stars&per_page=100&page=' + page,
       json: true,
       headers: {
-        'user-agent': 'GitHub Alexa'
+        'user-agent': 'Repo Voice'
       }
     }).then(function(json) {
       resolve(json);

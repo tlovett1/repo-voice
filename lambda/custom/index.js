@@ -9,7 +9,7 @@ exports.handler = function(event, context) {
   console.log('Received event: ', JSON.stringify(event, null, 2));
 
   const alexa = Alexa.handler(event, context);
-  alexa.dynamoDBTableName = 'github-voice';
+  alexa.dynamoDBTableName = 'repo-voice';
   alexa.registerHandlers(handlers);
   alexa.execute();
 };
@@ -18,7 +18,7 @@ const handlers = {
   'LaunchRequest': function() {
     console.log('LaunchRequest');
 
-    this.response.speak("Welcome to GitHub Voice. Say give me updates on node or update me on my favorites.");
+    this.response.speak("Welcome to Repo Voice. Say give me updates on node or update me on my favorites.");
     this.emit(':responseReady');
   },
 
@@ -59,7 +59,7 @@ const handlers = {
     console.log(this.attributes.favorites);
 
     if (!this.attributes.favorites || !Object.keys(this.attributes.favorites).length) {
-      this.response.speak("You currently have no favorites. Tell alexa add favorite to add one.");
+      this.response.speak("You currently have no favorites. Tell repo voice add favorite to add one.");
       this.emit(':responseReady');
       return;
     }
@@ -80,7 +80,8 @@ const handlers = {
     console.log(this.attributes.favorites);
 
     var repoKey = util.parseSlotValue(this.event.request.intent.slots.repo_name);
-    var repo = repos[repoKey];
+    var repo = repos[repoKey],
+      favorites;
 
     if (!repo) {
       this.response.speak("Sorry, I haven't heard of that repo.");
@@ -90,6 +91,8 @@ const handlers = {
 
     if (!this.attributes.favorites) {
       favorites = {};
+    } else {
+      favorites = this.attributes.favorites;
     }
 
     favorites[repoKey] = true;
@@ -191,9 +194,9 @@ const handlers = {
 
   'AMAZON.HelpIntent': function() {
     this.response.speak(
-      "GitHub Voice let's you get updates on the GitHub repos of your choosing. Say Alexa ask GitHub Voice for updates on my "
-      + "favorites. You can easily add and remove favorites. Say Alexa tell GitHub Voice add favorite node. You can also get "
-      + "updates for specific repos. Say Alexa ask GitHub Voice for updates on node."
+      "Repo Voice let's you get updates on the GitHub repositories of your choosing. Say Alexa ask Repo Voice for updates on my "
+      + "favorites. You can easily add and remove favorites. Say Alexa tell Repo Voice add favorite node. You can also get "
+      + "updates for specific repos. Say Alexa ask Repo Voice for updates on node."
     );
     this.emit(':responseReady');
   },

@@ -1,7 +1,7 @@
 {
-  "name": "github-voice",
+  "name": "repo-voice",
   "version": "1.0.0",
-  "description": "Communicate with GitHub via Alexa",
+  "description": "Communicate with GitHub repositories via Alexa",
   "main": "index.js",
   "dependencies": {
     "alexa-sdk": "^1.0.0",

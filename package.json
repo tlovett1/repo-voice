@@ -1,5 +1,5 @@
 {
-  "name": "alexa-github-wrapper",
+  "name": "repo-voiec-wrapper",
   "scripts": {
     "setup": "ask setup",
     "deploy": "ask deploy",

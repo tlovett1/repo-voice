@@ -3,14 +3,14 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Communicate with GitHub via Alexa.",
+          "summary": "Communicate with GitHub repositories via Alexa.",
           "examplePhrases": [
-            "Alexa ask GitHub Voice for updates",
-            "Alexa ask GitHub Voice for updates on my favorites",
-            "Alexa ask GitHub Voice for the latest on node.js"
+            "Alexa ask Repo Voice for my updates",
+            "Alexa ask Repo Voice for updates on my favorites",
+            "Alexa ask Repo Voice for the latest on node.js"
           ],
-          "name": "GitHub Voice",
-          "description": "Communicate with GitHub via Alexa."
+          "name": "Repo Voice",
+          "description": "Communicate with GitHub repositories via Alexa."
         }
       },
       "isAvailableWorldwide": true,

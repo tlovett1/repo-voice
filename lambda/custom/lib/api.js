@@ -75,7 +75,7 @@ module.exports.getLatestRelease = function(repoKey) {
       uri: 'https://api.github.com/repos/' + repo.owner + '/' + repo.name + '/releases/latest',
       json: true,
       headers: {
-        'user-agent': 'GitHub Alexa'
+        'user-agent': 'Repo Voice'
       }
     }).then(function(json) {
       resolve({
